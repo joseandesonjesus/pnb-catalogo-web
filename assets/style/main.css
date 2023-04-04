@@ -1,0 +1,173 @@
+﻿body {
+	background-color: rgb(240, 242, 248);
+}
+
+/* FORMWINZARD */
+.x-checkout-steps__item.is--active {
+	background-color: #0072ff;
+	color: #f0f2f8;
+}
+
+.wizard-icon {
+	outline: none !important;
+}
+
+.vue-form-wizard .wizard-icon-circle .wizard-icon-container {
+	color: #0072ff !important;
+	width: 400px !important;
+
+}
+
+.vue-form-wizard.xs .wizard-icon-circle {
+	width: 20px !important;
+	height: 20px !important;
+	font-size: 0px !important;
+	background-color: #ffffff !important;
+	border-color: #909090 !important;
+	color: #ffffff !important;
+}
+.vue-form-wizard.sm .wizard-icon-circle {
+	width: 20px !important;
+	height: 20px !important;
+	font-size: 0px !important;
+	background-color: #ffffff !important;
+	border-color: #909090 !important;
+	color: #ffffff !important;
+}
+.wizard-progress-with-circle {
+	background-color: #b4b4b4 !important;
+}
+
+.vue-form-wizard.xs .wizard-navigation .wizard-progress-with-circle {
+	position: relative !important;
+	top: 16px !important;
+	height: 6px !important;
+}
+.vue-form-wizard.sm .wizard-navigation .wizard-progress-with-circle {
+	position: relative !important;
+	top: 16px !important;
+	height: 6px !important;
+}
+.wizard-progress-bar {
+	background-color: #0072ff !important;
+	color: rgb(0, 0, 0) !important;
+}
+
+.wizard-progress-bar .li {
+	background-color: #000000 !important;
+}
+
+.wizard-nav .stepTitle .active {
+	color: black !important;
+	display: block !important;
+}
+
+.wizard-progress-with-circle {
+	background-color: #c3cbd9 !important;
+}
+
+.wizard-navigation li .stepTitle {
+	color: #e5e5e5 !important;
+}
+
+.wizard-navigation li .stepTitle.active {
+	color: black !important;
+}
+
+.wizard-navigation li:active {
+}
+
+.wizard-icon-circle {
+	background-color: #c3cbd9 !important;
+	font-size: 0px !important;
+}
+.vue-form-wizard.xs .wizard-nav-pills > li.active > a .wizard-icon {
+	font-size: 0px !important;
+}
+.vue-form-wizard.sm .wizard-nav-pills > li.active > a .wizard-icon {
+	font-size: 0px !important;
+}
+
+.vue-form-wizard .wizard-nav-pills a, .vue-form-wizard .wizard-nav-pills li{
+	cursor: not-allowed;
+	pointer-events: none;
+	}
+/* FORMWINZARD */
+
+.range-slider {
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	height: 3em;
+}
+
+.range-slider svg,
+.range-slider input[type='range'] {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+input[type='number'] {
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 1.6em;
+	-moz-appearance: textfield;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+input[type='number']:invalid,
+input[type='number']:out-of-range {
+	border: 2px solid #ff6347;
+}
+
+input[type='range'] {
+	-webkit-appearance: none;
+	width: 100%;
+}
+
+input[type='range']:focus {
+	outline: none;
+}
+
+input[type='range']:focus::-webkit-slider-runnable-track {
+	background: #2497e3;
+}
+
+input[type='range']:focus::-ms-fill-lower {
+	background: #2497e3;
+}
+
+input[type='range']:focus::-ms-fill-upper {
+	background: #2497e3;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 5px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: #2497e3;
+	border-radius: 1px;
+	box-shadow: none;
+	border: 0;
+}
+
+input[type='range']::-webkit-slider-thumb {
+	z-index: 2;
+	position: relative;
+	box-shadow: 0px 0px 0px #000;
+	border: 1px solid #2497e3;
+	height: 18px;
+	width: 18px;
+	border-radius: 25px;
+	background: #a1d0ff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -7px;
+}

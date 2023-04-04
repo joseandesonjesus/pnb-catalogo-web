@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"antfu.unocss",
+		"bradlc.vscode-tailwindcss",
+		"esbenp.prettier-vscode",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"wix.vscode-import-cost",
+		"voorjaar.windicss-intellisense",
+		"rvest.vs-code-prettier-eslint",
+		"Vue.volar"
+	]
+}
