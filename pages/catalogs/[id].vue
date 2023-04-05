@@ -88,17 +88,17 @@
 
 	async function updateListProduct() {
 		loadingProducts.value = true
-		vtexStore.setListProductCategories([])
+		// vtexStore.setListProductCategories([])
 
-		let respProd = await vtexStore.doSearchProduct({
-			idCategory: optionalCatalogs,
-			from: from.value,
-			to: to.value,
-			eSortProduct: selectedFilter.value,
-			filterBySize: selectedSize.value,
-		})
+		// let respProd = await vtexStore.doSearchProduct({
+		// 	idCategory: optionalCatalogs,
+		// 	from: from.value,
+		// 	to: to.value,
+		// 	eSortProduct: selectedFilter.value,
+		// 	filterBySize: selectedSize.value,
+		// })
 
-		vtexStore.setListProductCategories(respProd)
+		// vtexStore.setListProductCategories(respProd)
 		loadingProducts.value = false
 	}
 
