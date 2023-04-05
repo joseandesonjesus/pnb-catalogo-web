@@ -113,8 +113,8 @@
 		loadingBestSellers.value = true
 		// TODO: MELHORAR POIS ESTÁ QUEBRANDO QUANDO VOLTA DO TERCEIRO NÍVEL
 		try {
-			vtexStore.setListProductBestSellers([])
-			vtexStore.setListProductCategories([])
+			// vtexStore.setListProductBestSellers([])
+			// vtexStore.setListProductCategories([])
 
 			optionalCatalogs.value = await vtexStore.getCollectionCategory
 			let oc = optionalCatalogs.value.filter(
@@ -148,29 +148,29 @@
 		// console.log('getOptionCategory ', optionalCatalogs)
 		// vtexStore.setListProductBestSellers([])
 
-		let respProdBestSellers = await vtexStore.doSearchProduct({
-			idCategory: optionalCatalogs,
-			from: 0, //from.value,
-			to: 8, //to.value,
-			eSortProduct: 'OrderByTopSaleDESC',
-		})
+		// let respProdBestSellers = await vtexStore.doSearchProduct({
+		// 	idCategory: optionalCatalogs,
+		// 	from: 0, //from.value,
+		// 	to: 8, //to.value,
+		// 	eSortProduct: 'OrderByTopSaleDESC',
+		// })
 		// console.log('respProdBestSellers ', respProdBestSellers)
 
-		vtexStore.setListProductBestSellers(respProdBestSellers)
+		// vtexStore.setListProductBestSellers(respProdBestSellers)
 
 		//OrderByPriceDESC, OrderByPriceASC, OrderByTopSaleDESC, OrderByReviewRateDESC, OrderByNameASC, OrderByNameDESC, OrderByReleaseDateDESC, OrderByBestDiscountDESC, OrderByScoreDESC
 
 		// vtexStore.setListProductCategories([])
 
-		let respProd = await vtexStore.doSearchProduct({
-			idCategory: optionalCatalogs,
-			from: from.value,
-			to: to.value,
-			eSortProduct: 'OrderByTopSaleDESC',
-		})
+		// let respProd = await vtexStore.doSearchProduct({
+		// 	idCategory: optionalCatalogs,
+		// 	from: from.value,
+		// 	to: to.value,
+		// 	eSortProduct: 'OrderByTopSaleDESC',
+		// })
 		// console.log('respProd ', respProd)
 
-		vtexStore.setListProductCategories(respProd)
+		// vtexStore.setListProductCategories(respProd)
 
 		loadingCategories.value = false
 		loadingProducts.value = false
