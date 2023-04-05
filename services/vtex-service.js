@@ -106,8 +106,7 @@ export const useVtexStore = defineStore('vtex', {
 					url: 'https://pernambucanas.zappag.com.br/revendedor/catalog/visualizar?id=produtosfinanceiros&r=2502&l=11&c=',
 				},
 			],
-			listProductCategories:  {
-				"data": [
+			listProductCategories:  [
 					{
 						"productId": "1076",
 						"productName": "X-Games Relógio 5 Atm Preto Plástico",
@@ -1304,24 +1303,8 @@ export const useVtexStore = defineStore('vtex', {
 						]
 					}
 				],
-				"facets": {
-					"name": "Tamanho",
-					"value": [
-						"1",
-						"2",
-						"3",
-						"4",
-						"UNICO",
-						"SEM TAMANHO",
-						"P",
-						"M",
-						"G",
-						"GG"
-					]
-				}
-			},
-			listProductBestSellers:  {
-				"data": [
+				
+			listProductBestSellers: [
 					{
 						"productId": "1076",
 						"productName": "X-Games Relógio 5 Atm Preto Plástico",
@@ -2518,24 +2501,8 @@ export const useVtexStore = defineStore('vtex', {
 						]
 					}
 				],
-				"facets": {
-					"name": "Tamanho",
-					"value": [
-						"1",
-						"2",
-						"3",
-						"4",
-						"UNICO",
-						"SEM TAMANHO",
-						"P",
-						"M",
-						"G",
-						"GG"
-					]
-				}
-			},
-			listProduct:  {
-				"data": [
+			
+			listProduct: [
 					{
 						"productId": "1076",
 						"productName": "X-Games Relógio 5 Atm Preto Plástico",
@@ -3732,22 +3699,6 @@ export const useVtexStore = defineStore('vtex', {
 						]
 					}
 				],
-				"facets": {
-					"name": "Tamanho",
-					"value": [
-						"1",
-						"2",
-						"3",
-						"4",
-						"UNICO",
-						"SEM TAMANHO",
-						"P",
-						"M",
-						"G",
-						"GG"
-					]
-				}
-			},
 
 			cupomDiscount: null,
 			emailPersonal: null,
