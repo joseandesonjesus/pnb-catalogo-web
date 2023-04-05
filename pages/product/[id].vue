@@ -188,49 +188,49 @@
 			toast.error('Selecione um tamanho.')
 			return
 		}
-		console.log('selectedOption.value ', selectedOption.value)
+		// console.log('selectedOption.value ', selectedOption.value)
 		// cartStore.incrementCartTotalItems()
 
 
-		let id = ref(0)
-		let sellerId = ref(0)
+		// let id = ref(0)
+		// let sellerId = ref(0)
 
-		if (product.items.length === 1) {
-			id = product.items[0].itemId
-			sellerId = product.items[0].sellers[0].sellerId //product.seller
-			// vtexStore.doSetCart(product.items[0])
-			// let cart = await vtexStore.doAddUpdateProductCart({
-			// 	orderId: 'f8b4da78-c50d-4298-9c55-cc2d99f34c3d',
-			// 	body: 	{ orderItems: [ {
-			// 								id: product.items[0].itemId,
-			// 								quantity: 1,
-			// 								seller: product.items[0].sellers[0].sellerId //product.seller,
-			// 							}
-			// 						]
-			// 			}
-			// })
+		// if (product.items.length === 1) {
+		// 	id = product.items[0].itemId
+		// 	sellerId = product.items[0].sellers[0].sellerId //product.seller
+		// 	// vtexStore.doSetCart(product.items[0])
+		// 	// let cart = await vtexStore.doAddUpdateProductCart({
+		// 	// 	orderId: 'f8b4da78-c50d-4298-9c55-cc2d99f34c3d',
+		// 	// 	body: 	{ orderItems: [ {
+		// 	// 								id: product.items[0].itemId,
+		// 	// 								quantity: 1,
+		// 	// 								seller: product.items[0].sellers[0].sellerId //product.seller,
+		// 	// 							}
+		// 	// 						]
+		// 	// 			}
+		// 	// })
+		// 	// cartStore.incrementCartTotalItems()
+		// 	// toast.success(
+		// 	// 	`Produto só tem um sortimento ${product.items[0].itemId}`,
+		// 	// )
+		// 	// return
+		// }else{
+		// 	id = selectedOption.value
+		// 	sellerId = product.items.find(x => x.itemId === selectedOption.value).sellers[0].sellerId
+		// 	//product.seller
+		// }
+
+		// let cart = await vtexStore.doAddUpdateProductCart({
+		// 		orderId: 'f8b4da78-c50d-4298-9c55-cc2d99f34c3d',
+		// 		body: 	{ orderItems: [ {
+		// 									id: id, //product.items[0].itemId,
+		// 									quantity: 1,
+		// 									seller: sellerId //product.items[0].sellers[0].sellerId //product.seller,
+		// 								}
+		// 							]
+		// 				}
+		// 	})
 			// cartStore.incrementCartTotalItems()
-			// toast.success(
-			// 	`Produto só tem um sortimento ${product.items[0].itemId}`,
-			// )
-			// return
-		}else{
-			id = selectedOption.value
-			sellerId = product.items.find(x => x.itemId === selectedOption.value).sellers[0].sellerId
-			//product.seller
-		}
-
-		let cart = await vtexStore.doAddUpdateProductCart({
-				orderId: 'f8b4da78-c50d-4298-9c55-cc2d99f34c3d',
-				body: 	{ orderItems: [ {
-											id: id, //product.items[0].itemId,
-											quantity: 1,
-											seller: sellerId //product.items[0].sellers[0].sellerId //product.seller,
-										}
-									]
-						}
-			})
-			cartStore.incrementCartTotalItems()
 		toast.success(`${product.productName} foi adicionado ao carrinho. `)
 	}
 
