@@ -2414,15 +2414,3846 @@ export const useVtexStore = defineStore('vtex', {
 		},
 		async doGetCart(data) {
 			try {
-				console.log('this.cart', this.cart)
-				let _orderForm = data ? data : this.cart ? this.cart.orderFormId : this.cart
-				let resp = await apiUse.get(`api/${route.VtexGetCart}${ _orderForm ? '?orderForm=' + _orderForm : ''}`)
-				this.cart = resp.data
+				
+				//let _orderForm = data ? data : this.cart ? this.cart.orderFormId : this.cart
+				//let resp = await apiUse.get(`api/${route.VtexGetCart}${ _orderForm ? '?orderForm=' + _orderForm : ''}`)
+				this.cart = {
+					"orderFormId": "f8b4da78-c50d-4298-9c55-cc2d99f34c3d",
+					"salesChannel": "1",
+					"loggedIn": false,
+					"isCheckedIn": false,
+					"storeId": null,
+					"checkedInPickupPointId": null,
+					"allowManualPrice": false,
+					"canEditData": true,
+					"userProfileId": "2b5c1c38-a6aa-4709-a018-672fe3703ccd",
+					"userType": null,
+					"ignoreProfileData": false,
+					"value": 76283,
+					"messages": [],
+					"items": [
+						{
+							"id": "81509",
+							"requestIndex": null,
+							"quantity": 1,
+							"seller": "1",
+							"name": "Lince Relógio 5 Atm Bege Metal",
+							"skuName": "Lince Relógio 5 Atm Bege Metal",
+							"productId": "1022",
+							"refId": "921612000000",
+							"ean": "92161200085",
+							"imageUrl": "http://pernambucanasqa.vteximg.com.br/arquivos/ids/394936-55-55/Lince-Relogio-5-Atm-Bege-Metal.jpg?v=637812531096070000",
+							"detailUrl": "/lince-relogio-5-atm-bege-metal-921612000000/p",
+							"assemblyOptions": null,
+							"sellerChain": [
+								"1"
+							],
+							"tax": 0,
+							"priceValidUntil": "2024-04-05T13:17:56Z",
+							"price": 22999,
+							"listPrice": 22999,
+							"rewardValue": 0,
+							"sellingPrice": 22999,
+							"offerings": [],
+							"priceTags": [],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"parentItemIndex": null,
+							"parentAssemblyBinding": null,
+							"availability": "available",
+							"catalogProvider": null,
+							"priceDefinition": {
+								"calculatedSellingPrice": 22999,
+								"total": 22999,
+								"sellingPrices": [
+									{
+										"value": 22999,
+										"quantity": 1
+									}
+								]
+							}
+						},
+						{
+							"id": "109103",
+							"requestIndex": null,
+							"quantity": 1,
+							"seller": "1",
+							"name": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 1",
+							"skuName": "1",
+							"productId": "36504",
+							"refId": "951961000100",
+							"ean": "95196100108",
+							"imageUrl": "http://pernambucanasqa.vteximg.com.br/arquivos/ids/781777-55-55/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376341800000",
+							"detailUrl": "/conjunto-menina-com-babados-manga-longa-estampa-minnie-branco951961000000/p",
+							"assemblyOptions": null,
+							"sellerChain": [
+								"1"
+							],
+							"tax": 0,
+							"priceValidUntil": "2024-04-05T13:17:56Z",
+							"price": 4999,
+							"listPrice": 4999,
+							"rewardValue": 0,
+							"sellingPrice": 4999,
+							"offerings": [],
+							"priceTags": [],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"parentItemIndex": null,
+							"parentAssemblyBinding": null,
+							"availability": "available",
+							"catalogProvider": null,
+							"priceDefinition": {
+								"calculatedSellingPrice": 4999,
+								"total": 4999,
+								"sellingPrices": [
+									{
+										"value": 4999,
+										"quantity": 1
+									}
+								]
+							}
+						},
+						{
+							"id": "70045",
+							"requestIndex": null,
+							"quantity": 1,
+							"seller": "1",
+							"name": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+							"skuName": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+							"productId": "1059",
+							"refId": "922116000000",
+							"ean": "7909669059127",
+							"imageUrl": "http://pernambucanasqa.vteximg.com.br/arquivos/ids/360837-55-55/Relogio-Mondaine-Masculino-Prata-P2-Analogico-99143G0Mvne5.jpg?v=637812508867900000",
+							"detailUrl": "/relogio-mondaine-masculino-prata-p2-analogico-99143g0mvne5-922116000000/p",
+							"assemblyOptions": null,
+							"sellerChain": [
+								"1"
+							],
+							"tax": 0,
+							"priceValidUntil": "2024-04-05T13:17:56Z",
+							"price": 19999,
+							"listPrice": 19999,
+							"rewardValue": 0,
+							"sellingPrice": 19999,
+							"offerings": [],
+							"priceTags": [],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"parentItemIndex": null,
+							"parentAssemblyBinding": null,
+							"availability": "available",
+							"catalogProvider": null,
+							"priceDefinition": {
+								"calculatedSellingPrice": 19999,
+								"total": 19999,
+								"sellingPrices": [
+									{
+										"value": 19999,
+										"quantity": 1
+									}
+								]
+							}
+						},
+						{
+							"id": "109062",
+							"requestIndex": null,
+							"quantity": 1,
+							"seller": "1",
+							"name": "Óculos Unissex Metal Hexagonal Tartaruga Verde UNICO",
+							"skuName": "UNICO",
+							"productId": "36476",
+							"refId": "951637000100",
+							"ean": "95163700188",
+							"imageUrl": "http://pernambucanasqa.vteximg.com.br/arquivos/ids/781748-55-55/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376317070000",
+							"detailUrl": "/oculos-unissex-metal-hexagonal-tartaruga-verde-951637000000/p",
+							"assemblyOptions": null,
+							"sellerChain": [
+								"1"
+							],
+							"tax": 0,
+							"priceValidUntil": "2024-04-05T13:17:56Z",
+							"price": 5999,
+							"listPrice": 5999,
+							"rewardValue": 0,
+							"sellingPrice": 5999,
+							"offerings": [],
+							"priceTags": [],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"parentItemIndex": null,
+							"parentAssemblyBinding": null,
+							"availability": "available",
+							"catalogProvider": null,
+							"priceDefinition": {
+								"calculatedSellingPrice": 5999,
+								"total": 5999,
+								"sellingPrices": [
+									{
+										"value": 5999,
+										"quantity": 1
+									}
+								]
+							}
+						},
+						{
+							"id": "109042",
+							"requestIndex": null,
+							"quantity": 1,
+							"seller": "1",
+							"name": "Cinto Liso Marrom M",
+							"skuName": "M",
+							"productId": "36459",
+							"refId": "950737000300",
+							"ean": "95073700353",
+							"imageUrl": "http://pernambucanasqa.vteximg.com.br/arquivos/ids/781659-55-55/Cinto-Liso-Marrom.jpg?v=637829376278030000",
+							"detailUrl": "/cinto-liso-marrom950737000000/p",
+							"assemblyOptions": null,
+							"sellerChain": [
+								"1"
+							],
+							"tax": 0,
+							"priceValidUntil": "2024-04-05T13:17:56Z",
+							"price": 3999,
+							"listPrice": 3999,
+							"rewardValue": 0,
+							"sellingPrice": 3999,
+							"offerings": [],
+							"priceTags": [],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"parentItemIndex": null,
+							"parentAssemblyBinding": null,
+							"availability": "available",
+							"catalogProvider": null,
+							"priceDefinition": {
+								"calculatedSellingPrice": 3999,
+								"total": 3999,
+								"sellingPrices": [
+									{
+										"value": 3999,
+										"quantity": 1
+									}
+								]
+							}
+						},
+						{
+							"id": "2044",
+							"requestIndex": null,
+							"quantity": 1,
+							"seller": "1",
+							"name": "Barbeador Elétrico Gama Gsh900 Bivolt",
+							"skuName": "Barbeador Elétrico Gama Gsh900 Bivolt",
+							"productId": "1789",
+							"refId": "870624000000",
+							"ean": "8023277109971",
+							"imageUrl": "http://pernambucanasqa.vteximg.com.br/arquivos/ids/513832-55-55/Barbeador-Eletrico-Gama-Gsh900-Bivolt.png?v=637825723642800000",
+							"detailUrl": "/barbeador-eltrico-gama-gsh900-bivolt870624000000/p",
+							"assemblyOptions": null,
+							"sellerChain": [
+								"1"
+							],
+							"tax": 0,
+							"priceValidUntil": "2024-04-05T13:17:56Z",
+							"price": 13990,
+							"listPrice": 13990,
+							"rewardValue": 0,
+							"sellingPrice": 13990,
+							"offerings": [],
+							"priceTags": [],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"parentItemIndex": null,
+							"parentAssemblyBinding": null,
+							"availability": "available",
+							"catalogProvider": null,
+							"priceDefinition": {
+								"calculatedSellingPrice": 13990,
+								"total": 13990,
+								"sellingPrices": [
+									{
+										"value": 13990,
+										"quantity": 1
+									}
+								]
+							}
+						},
+						{
+							"id": "98509",
+							"requestIndex": null,
+							"quantity": 2,
+							"seller": "1",
+							"name": "Meia Masculina Estampada Snoopy 39/43",
+							"skuName": "39/43",
+							"productId": "22074",
+							"refId": "937176000100",
+							"ean": "093717600151",
+							"imageUrl": "http://pernambucanasqa.vteximg.com.br/arquivos/ids/777395-55-55/Meia-Masculina-Estampada-Snoopy.jpg?v=637829372260500000",
+							"detailUrl": "/meia-masculina-estampada-snoopy-937176000000/p",
+							"assemblyOptions": null,
+							"sellerChain": [
+								"1"
+							],
+							"tax": 0,
+							"priceValidUntil": "2024-04-05T13:17:56Z",
+							"price": 599,
+							"listPrice": 599,
+							"rewardValue": 0,
+							"sellingPrice": 599,
+							"offerings": [],
+							"priceTags": [],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"parentItemIndex": null,
+							"parentAssemblyBinding": null,
+							"availability": "available",
+							"catalogProvider": null,
+							"priceDefinition": {
+								"calculatedSellingPrice": 599,
+								"total": 1198,
+								"sellingPrices": [
+									{
+										"value": 599,
+										"quantity": 2
+									}
+								]
+							}
+						}
+					],
+					"selectableGifts": [],
+					"totalizers": [
+						{
+							"id": "Items",
+							"name": "Total dos Itens",
+							"value": 73183
+						},
+						{
+							"id": "Shipping",
+							"name": "Total do Frete",
+							"value": 3100
+						}
+					],
+					"shippingData": {
+						"address": {
+							"addressType": "search",
+							"receiverName": "Joseandeson Jesus",
+							"addressId": "3b246a4e8a3a481cb05e105d61183370",
+							"isDisposable": true,
+							"postalCode": "41510-000",
+							"city": "Salvador",
+							"state": "BA",
+							"country": "BRA",
+							"street": "BA-526",
+							"number": "305",
+							"neighborhood": "São Cristóvão",
+							"complement": "",
+							"reference": "",
+							"geoCoordinates": [
+								0,
+								0
+							]
+						},
+						"logisticsInfo": [
+							{
+								"itemIndex": 0,
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"selectedSla": "Normal",
+								"selectedDeliveryChannel": "delivery",
+								"quantity": 0,
+								"shipsTo": [
+									"BRA"
+								],
+								"itemId": "81509",
+								"slas": [
+									{
+										"id": "Normal",
+										"deliveryChannel": "delivery",
+										"name": "Normal",
+										"deliveryIds": [
+											{
+												"courierId": "2884",
+												"warehouseId": "1",
+												"dockId": "1",
+												"courierName": "intelipost_intelipost_4_t0288",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "6bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 1,
+										"listPrice": 1,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "4bd"
+									},
+									{
+										"id": "Expresso",
+										"deliveryChannel": "delivery",
+										"name": "Expresso",
+										"deliveryIds": [
+											{
+												"courierId": "1c59d1c",
+												"warehouseId": "1",
+												"dockId": "5",
+												"courierName": "intelipost_intelipost_2_t0298",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "8bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 3,
+										"listPrice": 3,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "6bd"
+									}
+								],
+								"deliveryChannels": [
+									{
+										"id": "delivery"
+									},
+									{
+										"id": "pickup-in-point"
+									}
+								]
+							},
+							{
+								"itemIndex": 1,
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"selectedSla": "Normal",
+								"selectedDeliveryChannel": "delivery",
+								"quantity": 0,
+								"shipsTo": [
+									"BRA"
+								],
+								"itemId": "109103",
+								"slas": [
+									{
+										"id": "Normal",
+										"deliveryChannel": "delivery",
+										"name": "Normal",
+										"deliveryIds": [
+											{
+												"courierId": "2884",
+												"warehouseId": "1",
+												"dockId": "1",
+												"courierName": "intelipost_intelipost_4_t0288",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "6bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 844,
+										"listPrice": 844,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "4bd"
+									},
+									{
+										"id": "Expresso",
+										"deliveryChannel": "delivery",
+										"name": "Expresso",
+										"deliveryIds": [
+											{
+												"courierId": "1c59d1c",
+												"warehouseId": "1",
+												"dockId": "5",
+												"courierName": "intelipost_intelipost_2_t0298",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "8bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 1241,
+										"listPrice": 1241,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "6bd"
+									}
+								],
+								"deliveryChannels": [
+									{
+										"id": "delivery"
+									},
+									{
+										"id": "pickup-in-point"
+									}
+								]
+							},
+							{
+								"itemIndex": 2,
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"selectedSla": "Normal",
+								"selectedDeliveryChannel": "delivery",
+								"quantity": 0,
+								"shipsTo": [
+									"BRA"
+								],
+								"itemId": "70045",
+								"slas": [
+									{
+										"id": "Normal",
+										"deliveryChannel": "delivery",
+										"name": "Normal",
+										"deliveryIds": [
+											{
+												"courierId": "2884",
+												"warehouseId": "1",
+												"dockId": "1",
+												"courierName": "intelipost_intelipost_4_t0288",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "6bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 1,
+										"listPrice": 1,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "4bd"
+									},
+									{
+										"id": "Expresso",
+										"deliveryChannel": "delivery",
+										"name": "Expresso",
+										"deliveryIds": [
+											{
+												"courierId": "1c59d1c",
+												"warehouseId": "1",
+												"dockId": "5",
+												"courierName": "intelipost_intelipost_2_t0298",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "8bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 1,
+										"listPrice": 1,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "6bd"
+									}
+								],
+								"deliveryChannels": [
+									{
+										"id": "delivery"
+									},
+									{
+										"id": "pickup-in-point"
+									}
+								]
+							},
+							{
+								"itemIndex": 3,
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"selectedSla": "Normal",
+								"selectedDeliveryChannel": "delivery",
+								"quantity": 0,
+								"shipsTo": [
+									"BRA"
+								],
+								"itemId": "109062",
+								"slas": [
+									{
+										"id": "Normal",
+										"deliveryChannel": "delivery",
+										"name": "Normal",
+										"deliveryIds": [
+											{
+												"courierId": "2884",
+												"warehouseId": "1",
+												"dockId": "1",
+												"courierName": "intelipost_intelipost_4_t0288",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "6bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 1688,
+										"listPrice": 1688,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "4bd"
+									},
+									{
+										"id": "Expresso",
+										"deliveryChannel": "delivery",
+										"name": "Expresso",
+										"deliveryIds": [
+											{
+												"courierId": "1c59d1c",
+												"warehouseId": "1",
+												"dockId": "5",
+												"courierName": "intelipost_intelipost_2_t0298",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "8bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 2482,
+										"listPrice": 2482,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "6bd"
+									}
+								],
+								"deliveryChannels": [
+									{
+										"id": "delivery"
+									},
+									{
+										"id": "pickup-in-point"
+									}
+								]
+							},
+							{
+								"itemIndex": 4,
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"selectedSla": "Normal",
+								"selectedDeliveryChannel": "delivery",
+								"quantity": 0,
+								"shipsTo": [
+									"BRA"
+								],
+								"itemId": "109042",
+								"slas": [
+									{
+										"id": "Normal",
+										"deliveryChannel": "delivery",
+										"name": "Normal",
+										"deliveryIds": [
+											{
+												"courierId": "2884",
+												"warehouseId": "1",
+												"dockId": "1",
+												"courierName": "intelipost_intelipost_4_t0288",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "6bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 563,
+										"listPrice": 563,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "4bd"
+									},
+									{
+										"id": "Expresso",
+										"deliveryChannel": "delivery",
+										"name": "Expresso",
+										"deliveryIds": [
+											{
+												"courierId": "1c59d1c",
+												"warehouseId": "1",
+												"dockId": "5",
+												"courierName": "intelipost_intelipost_2_t0298",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "8bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 827,
+										"listPrice": 827,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "6bd"
+									}
+								],
+								"deliveryChannels": [
+									{
+										"id": "delivery"
+									},
+									{
+										"id": "pickup-in-point"
+									}
+								]
+							},
+							{
+								"itemIndex": 5,
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"selectedSla": "Normal",
+								"selectedDeliveryChannel": "delivery",
+								"quantity": 0,
+								"shipsTo": [
+									"BRA"
+								],
+								"itemId": "2044",
+								"slas": [
+									{
+										"id": "Normal",
+										"deliveryChannel": "delivery",
+										"name": "Normal",
+										"deliveryIds": [
+											{
+												"courierId": "2884",
+												"warehouseId": "1",
+												"dockId": "1",
+												"courierName": "intelipost_intelipost_4_t0288",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "6bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 2,
+										"listPrice": 2,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "4bd"
+									},
+									{
+										"id": "Expresso",
+										"deliveryChannel": "delivery",
+										"name": "Expresso",
+										"deliveryIds": [
+											{
+												"courierId": "1c59d1c",
+												"warehouseId": "1",
+												"dockId": "5",
+												"courierName": "intelipost_intelipost_2_t0298",
+												"quantity": 1,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "8bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 3,
+										"listPrice": 3,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "6bd"
+									}
+								],
+								"deliveryChannels": [
+									{
+										"id": "delivery"
+									},
+									{
+										"id": "pickup-in-point"
+									}
+								]
+							},
+							{
+								"itemIndex": 6,
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"selectedSla": "Normal",
+								"selectedDeliveryChannel": "delivery",
+								"quantity": 0,
+								"shipsTo": [
+									"BRA"
+								],
+								"itemId": "98509",
+								"slas": [
+									{
+										"id": "Normal",
+										"deliveryChannel": "delivery",
+										"name": "Normal",
+										"deliveryIds": [
+											{
+												"courierId": "2884",
+												"warehouseId": "1",
+												"dockId": "1",
+												"courierName": "intelipost_intelipost_4_t0288",
+												"quantity": 2,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "6bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 1,
+										"listPrice": 1,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "4bd"
+									},
+									{
+										"id": "Expresso",
+										"deliveryChannel": "delivery",
+										"name": "Expresso",
+										"deliveryIds": [
+											{
+												"courierId": "1c59d1c",
+												"warehouseId": "1",
+												"dockId": "5",
+												"courierName": "intelipost_intelipost_2_t0298",
+												"quantity": 2,
+												"kitItemDetails": []
+											}
+										],
+										"shippingEstimate": "8bd",
+										"shippingEstimateAux": null,
+										"shippingEstimateDate": null,
+										"lockTTL": null,
+										"availableDeliveryWindows": [],
+										"deliveryWindow": null,
+										"price": 2,
+										"listPrice": 2,
+										"tax": 0,
+										"pickupStoreInfo": {
+											"isPickupStore": false,
+											"friendlyName": null,
+											"address": null,
+											"additionalInfo": null,
+											"dockId": null
+										},
+										"pickupPointId": null,
+										"pickupDistance": 0,
+										"polygonName": "",
+										"transitTime": "6bd"
+									}
+								],
+								"deliveryChannels": [
+									{
+										"id": "delivery"
+									},
+									{
+										"id": "pickup-in-point"
+									}
+								]
+							}
+						],
+						"selectedAddresses": [
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"isDisposable": true,
+								"postalCode": "41510-000",
+								"city": "Salvador",
+								"state": "BA",
+								"country": "BRA",
+								"street": "BA-526",
+								"number": "305",
+								"neighborhood": "São Cristóvão",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							}
+						],
+						"availableAddresses": [
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "-8402679367805",
+								"isDisposable": true,
+								"postalCode": "01301100",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": "8",
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": "casa 7",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "4dbcb50474314e2a9a52a82097268d95",
+								"isDisposable": true,
+								"postalCode": "01301100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua da Consolação",
+								"number": "",
+								"neighborhood": "Consolação",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "-3361111719468",
+								"isDisposable": true,
+								"postalCode": "01301-100",
+								"city": null,
+								"state": null,
+								"country": "BRA",
+								"street": null,
+								"number": null,
+								"neighborhood": null,
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": []
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "b4d9d2642e9242029efc5bed541c5e86",
+								"isDisposable": true,
+								"postalCode": "01301100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua da Consolação",
+								"number": "",
+								"neighborhood": "Consolação",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "ad683ad67b934476814b9cd294dfecfc",
+								"isDisposable": true,
+								"postalCode": "01301100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua da Consolação",
+								"number": "",
+								"neighborhood": "Consolação",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "-3361267416812",
+								"isDisposable": true,
+								"postalCode": "01301-100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua da Consolação",
+								"number": "2403",
+								"neighborhood": "Consolação",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-46.6623,
+									-23.5554
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "95e89e6d050d4bbea6dcbea420470639",
+								"isDisposable": true,
+								"postalCode": "01301-100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua da Consolação",
+								"number": null,
+								"neighborhood": "Consolação",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-46.654625,
+									-23.55044
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "0794dcdc0a6e495e94cd8e298383dee8",
+								"isDisposable": true,
+								"postalCode": "01301100",
+								"city": null,
+								"state": null,
+								"country": "BRA",
+								"street": null,
+								"number": null,
+								"neighborhood": null,
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": []
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "3df4b62d1168490686b93a113727e54d",
+								"isDisposable": true,
+								"postalCode": "42826-740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": null,
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-38.265625,
+									-12.8392
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "-3361289891102",
+								"isDisposable": true,
+								"postalCode": "01301-100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua da Consolação",
+								"number": "2403",
+								"neighborhood": "Consolação",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-46.6623,
+									-23.5554
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "-1680532837668",
+								"isDisposable": true,
+								"postalCode": "42826-740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": null,
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-38.265625,
+									-12.8392
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "8d0eaaf9094b456fb85d34f074105d8f",
+								"isDisposable": false,
+								"postalCode": "42826-740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": "8",
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": "1",
+								"reference": null,
+								"geoCoordinates": [
+									-38.265625,
+									-12.8392
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "7ee227b6d8c6402b849acff44a874b71",
+								"isDisposable": true,
+								"postalCode": "41730-101",
+								"city": "Salvador",
+								"state": "BA",
+								"country": "BRA",
+								"street": "Avenida Luís Viana Filho",
+								"number": "8544",
+								"neighborhood": "Alphaville",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "72e9a7d5616b499aadd868a7e5f82d60",
+								"isDisposable": false,
+								"postalCode": "42826-740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": null,
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-38.265625,
+									-12.8392
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "2eb6e45c4423448f818abb5a60fe723a",
+								"isDisposable": true,
+								"postalCode": "41098-020",
+								"city": "Salvador",
+								"state": "BA",
+								"country": "BRA",
+								"street": "Alameda Euvaldo Luz",
+								"number": "92",
+								"neighborhood": "Horto Bela Vista",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "80d04621d51046c6b594375dde5a24f9",
+								"isDisposable": true,
+								"postalCode": "42826740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": "8",
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": "Casa 7",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "4f4d08966ae641ca997241b6e3f0d26f",
+								"isDisposable": false,
+								"postalCode": "42826-740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": null,
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-38.265625,
+									-12.8392
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "0ea529788811477a93a6a159e12155fe",
+								"isDisposable": false,
+								"postalCode": "42826740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": "8",
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": "Casa 7",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "-3361111977394",
+								"isDisposable": true,
+								"postalCode": "41510-000",
+								"city": "Salvador",
+								"state": "BA",
+								"country": "BRA",
+								"street": "BA-526",
+								"number": "305",
+								"neighborhood": "São Cristóvão",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-38.35043,
+									-12.91109
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "bc09dc106d924f26be844c61f01b036a",
+								"isDisposable": false,
+								"postalCode": "01301-100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua da Consolação",
+								"number": "8",
+								"neighborhood": "Consolação",
+								"complement": "casa 7",
+								"reference": null,
+								"geoCoordinates": [
+									-46.654625,
+									-23.55044
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "-5041604556543",
+								"isDisposable": true,
+								"postalCode": "01301-100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua Da Consolação",
+								"number": "2403",
+								"neighborhood": "Consolação",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-46.6623,
+									-23.5554
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "e9b8e28873074a6c8afbfcd17a903e2b",
+								"isDisposable": true,
+								"postalCode": "42826-740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": "8",
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": "cs 7",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "4e3e16202b184bc08b840a08401f6a22",
+								"isDisposable": true,
+								"postalCode": "41730-101",
+								"city": "Salvador",
+								"state": "BA",
+								"country": "BRA",
+								"street": "Avenida Luís Viana Filho",
+								"number": "8544",
+								"neighborhood": "Alphaville",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "2479138162d54d2fbd4d01c7082c7837",
+								"isDisposable": true,
+								"postalCode": "41730-101",
+								"city": "Salvador",
+								"state": "BA",
+								"country": "BRA",
+								"street": "Avenida Luís Viana Filho",
+								"number": "8544",
+								"neighborhood": "Alphaville",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "bb7c8a57fee34b819ccea319fcf0009b",
+								"isDisposable": true,
+								"postalCode": "42826740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": "",
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "df8cdbd0d3994303a0682709b6160b15",
+								"isDisposable": false,
+								"postalCode": "42826740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": "7",
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": "Dunas de abrantes",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "28a8e7a3fa8f405dbc36835aa4293bfa",
+								"isDisposable": true,
+								"postalCode": "41510-000",
+								"city": "Salvador",
+								"state": "BA",
+								"country": "BRA",
+								"street": "BA-526",
+								"number": "305",
+								"neighborhood": "São Cristóvão",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "3360191616670",
+								"isDisposable": true,
+								"postalCode": "01301-100",
+								"city": "São Paulo",
+								"state": "SP",
+								"country": "BRA",
+								"street": "Rua da Consolação",
+								"number": null,
+								"neighborhood": "Consolação",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-46.654625,
+									-23.55044
+								]
+							},
+							{
+								"addressType": "residential",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "5040287425005",
+								"isDisposable": false,
+								"postalCode": "42826-740",
+								"city": "Camaçari",
+								"state": "BA",
+								"country": "BRA",
+								"street": "2ª Travessa Guaraema",
+								"number": "7",
+								"neighborhood": "Nova Abrantes (Abrantes)",
+								"complement": null,
+								"reference": null,
+								"geoCoordinates": [
+									-38.265625,
+									-12.8392
+								]
+							},
+							{
+								"addressType": "search",
+								"receiverName": "Joseandeson Jesus",
+								"addressId": "3b246a4e8a3a481cb05e105d61183370",
+								"isDisposable": true,
+								"postalCode": "41510-000",
+								"city": "Salvador",
+								"state": "BA",
+								"country": "BRA",
+								"street": "BA-526",
+								"number": "305",
+								"neighborhood": "São Cristóvão",
+								"complement": "",
+								"reference": "",
+								"geoCoordinates": [
+									0,
+									0
+								]
+							}
+						],
+						"pickupPoints": []
+					},
+					"clientProfileData": {
+						"email": "joseandesonjesus@gmail.com",
+						"firstName": "Joseandeson",
+						"lastName": "Jesus",
+						"document": "01904749550",
+						"documentType": "CPF",
+						"phone": "71986272098",
+						"corporateName": null,
+						"tradeName": null,
+						"corporateDocument": null,
+						"stateInscription": null,
+						"corporatePhone": null,
+						"isCorporate": false,
+						"profileCompleteOnLoading": false,
+						"profileErrorOnLoading": false,
+						"customerClass": null
+					},
+					"paymentData": {
+						"installmentOptions": [
+							{
+								"paymentSystem": "1",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 2,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 38141,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 2,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 38141,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 3,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 25427,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 3,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 25427,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 4,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 19070,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 4,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 19070,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 5,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 15256,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 5,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 15256,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 6,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 12713,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 6,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 12713,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 7,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 10897,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 7,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 10897,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 8,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 9535,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 8,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 9535,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 9,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 8475,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 9,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 8475,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 10,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 7628,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 10,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 7628,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 11,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6934,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 11,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6934,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 12,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6356,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 12,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6356,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "2",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 2,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 38141,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 2,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 38141,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 3,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 25427,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 3,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 25427,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 4,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 19070,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 4,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 19070,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 5,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 15256,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 5,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 15256,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 6,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 12713,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 6,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 12713,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 7,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 10897,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 7,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 10897,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 8,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 9535,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 8,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 9535,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 9,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 8475,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 9,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 8475,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 10,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 7628,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 10,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 7628,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 11,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6934,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 11,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6934,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 12,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6356,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 12,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6356,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "3",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 2,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 38141,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 2,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 38141,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 3,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 25427,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 3,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 25427,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 4,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 19070,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 4,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 19070,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 5,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 15256,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 5,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 15256,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 6,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 12713,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 6,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 12713,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 7,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 10897,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 7,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 10897,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 8,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 9535,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 8,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 9535,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 9,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 8475,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 9,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 8475,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 10,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 7628,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 10,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 7628,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 11,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6934,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 11,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6934,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 12,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6356,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 12,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6356,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "4",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 2,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 38141,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 2,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 38141,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 3,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 25427,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 3,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 25427,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 4,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 19070,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 4,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 19070,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 5,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 15256,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 5,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 15256,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 6,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 12713,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 6,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 12713,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 7,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 10897,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 7,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 10897,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 8,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 9535,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 8,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 9535,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 9,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 8475,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 9,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 8475,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 10,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 7628,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 10,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 7628,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 11,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6934,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 11,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6934,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 12,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6356,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 12,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6356,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "8",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 2,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 38141,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 2,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 38141,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 3,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 25427,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 3,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 25427,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 4,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 19070,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 4,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 19070,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 5,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 15256,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 5,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 15256,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 6,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 12713,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 6,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 12713,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 7,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 10897,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 7,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 10897,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 8,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 9535,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 8,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 9535,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 9,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 8475,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 9,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 8475,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 10,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 7628,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 10,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 7628,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 11,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6934,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 11,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6934,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 12,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6356,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 12,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6356,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "9",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 2,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 38141,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 2,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 38141,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 3,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 25427,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 3,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 25427,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 4,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 19070,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 4,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 19070,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 5,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 15256,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 5,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 15256,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 6,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 12713,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 6,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 12713,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 7,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 10897,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 7,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 10897,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 8,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 9535,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 8,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 9535,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 9,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 8475,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 9,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 8475,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 10,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 7628,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 10,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 7628,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 11,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6934,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 11,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6934,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 12,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6356,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 12,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6356,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "16",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "17",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "125",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "401",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 2,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 38141,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 2,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 38141,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 3,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 25427,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 3,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 25427,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 4,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 19070,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 4,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 19070,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 5,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 15256,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 5,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 15256,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 6,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 12713,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 6,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 12713,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 7,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 10897,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 7,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 10897,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 8,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 9535,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 8,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 9535,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 9,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 8475,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 9,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 8475,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 10,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 7628,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 10,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 7628,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 11,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6934,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 11,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6934,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 12,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6356,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 12,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6356,
+												"total": 76283
+											}
+										]
+									}
+								]
+							},
+							{
+								"paymentSystem": "402",
+								"bin": null,
+								"paymentName": null,
+								"paymentGroupName": null,
+								"value": 76283,
+								"installments": [
+									{
+										"count": 1,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 76283,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 1,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 76283,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 2,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 38141,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 2,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 38141,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 3,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 25427,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 3,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 25427,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 4,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 19070,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 4,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 19070,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 5,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 15256,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 5,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 15256,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 6,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 12713,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 6,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 12713,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 7,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 10897,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 7,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 10897,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 8,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 9535,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 8,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 9535,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 9,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 8475,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 9,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 8475,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 10,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 7628,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 10,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 7628,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 11,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6934,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 11,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6934,
+												"total": 76283
+											}
+										]
+									},
+									{
+										"count": 12,
+										"hasInterestRate": false,
+										"interestRate": 0,
+										"value": 6356,
+										"total": 76283,
+										"sellerMerchantInstallments": [
+											{
+												"id": "PERNAMBUCANASQA",
+												"count": 12,
+												"hasInterestRate": false,
+												"interestRate": 0,
+												"value": 6356,
+												"total": 76283
+											}
+										]
+									}
+								]
+							}
+						],
+						"paymentSystems": [
+							{
+								"id": 17,
+								"name": "Promissory",
+								"groupName": "promissoryPaymentGroup",
+								"validator": {
+									"regex": null,
+									"mask": null,
+									"cardCodeRegex": null,
+									"cardCodeMask": null,
+									"weights": null,
+									"useCvv": false,
+									"useExpirationDate": false,
+									"useCardHolderName": false,
+									"useBillingAddress": false
+								},
+								"stringId": "17",
+								"template": "promissoryPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 16,
+								"name": "Vale",
+								"groupName": "giftCardPaymentGroup",
+								"validator": {
+									"regex": null,
+									"mask": null,
+									"cardCodeRegex": null,
+									"cardCodeMask": null,
+									"weights": null,
+									"useCvv": false,
+									"useExpirationDate": false,
+									"useCardHolderName": false,
+									"useBillingAddress": false
+								},
+								"stringId": "16",
+								"template": "giftCardPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 125,
+								"name": "Pix",
+								"groupName": "instantPaymentPaymentGroup",
+								"validator": {
+									"regex": null,
+									"mask": null,
+									"cardCodeRegex": null,
+									"cardCodeMask": null,
+									"weights": null,
+									"useCvv": false,
+									"useExpirationDate": false,
+									"useCardHolderName": false,
+									"useBillingAddress": false
+								},
+								"stringId": "125",
+								"template": "instantPaymentPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 2,
+								"name": "Visa",
+								"groupName": "creditCardPaymentGroup",
+								"validator": {
+									"regex": "^4[0-9]{15}$",
+									"mask": "9999 9999 9999 9999",
+									"cardCodeRegex": "^[0-9]{3}$",
+									"cardCodeMask": "999",
+									"weights": [
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2
+									],
+									"useCvv": true,
+									"useExpirationDate": true,
+									"useCardHolderName": true,
+									"useBillingAddress": true
+								},
+								"stringId": "2",
+								"template": "creditCardPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 1,
+								"name": "American Express",
+								"groupName": "creditCardPaymentGroup",
+								"validator": {
+									"regex": "^3[47][0-9]{13}$",
+									"mask": "9999 999999 99999",
+									"cardCodeRegex": "^[0-9]{4}$",
+									"cardCodeMask": "9999",
+									"weights": [
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1
+									],
+									"useCvv": true,
+									"useExpirationDate": true,
+									"useCardHolderName": true,
+									"useBillingAddress": true
+								},
+								"stringId": "1",
+								"template": "creditCardPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 3,
+								"name": "Diners",
+								"groupName": "creditCardPaymentGroup",
+								"validator": {
+									"regex": "^3(0[0-5]|[68][0-9])[0-9]{11}$",
+									"mask": "9999 999999 9999",
+									"cardCodeRegex": "^[0-9]{3}$",
+									"cardCodeMask": "999",
+									"weights": [
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2
+									],
+									"useCvv": true,
+									"useExpirationDate": true,
+									"useCardHolderName": true,
+									"useBillingAddress": true
+								},
+								"stringId": "3",
+								"template": "creditCardPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 4,
+								"name": "Mastercard",
+								"groupName": "creditCardPaymentGroup",
+								"validator": {
+									"regex": "^((5(([1-2]|[4-5])[0-9]{8}|0((1|6)([0-9]{7}))|3(0(4((0|[2-9])[0-9]{5})|([0-3]|[5-9])[0-9]{6})|[1-9][0-9]{7})))|((508116)\\d{4,10})|((502121)\\d{4,10})|((589916)\\d{4,10})|(2[0-9]{15})|(67[0-9]{14})|(506387)\\d{4,10})",
+									"mask": "9999 9999 9999 9999",
+									"cardCodeRegex": "^[0-9]{3}$",
+									"cardCodeMask": "999",
+									"weights": [
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2
+									],
+									"useCvv": true,
+									"useExpirationDate": true,
+									"useCardHolderName": true,
+									"useBillingAddress": true
+								},
+								"stringId": "4",
+								"template": "creditCardPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 8,
+								"name": "Hipercard",
+								"groupName": "creditCardPaymentGroup",
+								"validator": {
+									"regex": "^606282|^3841(?:[0|4|6]{1})0",
+									"mask": "9999999999999999999",
+									"cardCodeRegex": "^[0-9]{3}$",
+									"cardCodeMask": "999",
+									"weights": [
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										1,
+										1,
+										1
+									],
+									"useCvv": true,
+									"useExpirationDate": true,
+									"useCardHolderName": true,
+									"useBillingAddress": true
+								},
+								"stringId": "8",
+								"template": "creditCardPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 9,
+								"name": "Elo",
+								"groupName": "creditCardPaymentGroup",
+								"validator": {
+									"regex": "^(50(67(0[78]|1[5789]|2[012456789]|3[01234569]|4[0-7]|53|7[4-8])|9(0(0[0-9]|1[34]|2[0-7]|3[0359]|4[01235678]|5[01235789]|6[0-9]|7[01346789]|8[01234789]|9[123479])|1(0[34568]|4[6-9]|5[1-8]|8[356789])|2(2[0-2]|5[78]|6[1-9]|7[0-9]|8[01235678]|90)|357|4(0[7-9]|1[0-9]|2[0-2]|31|5[7-9]|6[0-6]|84)|55[01]|636|7(2[2-9]|6[5-9])))|4(0117[89]|3(1274|8935)|5(1416|7(393|63[12])))|6(27780|36368|5(0(0(3[12356789]|4[0-7]|7[78])|4(0[6-9]|1[0234]|2[2-9]|3[045789]|8[5-9]|9[0-9])|5(0[012346789]|1[0-9]|2[0-9]|3[0178]|5[2-9]|6[0-6]|7[7-9]|8[0-8]|9[1-8])|72[0-7]|9(0[1-9]|1[0-9]|2[0128]|3[89]|4[6-9]|5[0145]|6[235678]|71))|16(5[2-9]|6[0-9]|7[01456789])|50(0[0-9]|1[02345678]|36|5[1267]))))\\d{0,13}$",
+									"mask": "9999 9999 9999 9999",
+									"cardCodeRegex": "^[0-9]{3}$",
+									"cardCodeMask": "999",
+									"weights": [
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2,
+										1,
+										2
+									],
+									"useCvv": true,
+									"useExpirationDate": true,
+									"useCardHolderName": true,
+									"useBillingAddress": true
+								},
+								"stringId": "9",
+								"template": "creditCardPaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": false,
+								"description": null,
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-12T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 402,
+								"name": "Cartão Pernambucanas Elo",
+								"groupName": "customPrivate_402PaymentGroup",
+								"validator": {
+									"regex": "5(0(9(2(7(4)))))|6(5(0(5(1(6)))))|6(5(0(5(1(7)))))|6(5(0(5(9(7)))))|6(5(5(0(1(2)))))|6(5(0(5(2(4)))))",
+									"mask": "9999 9999 9999 9999",
+									"cardCodeRegex": "^[0-9]{3}$",
+									"cardCodeMask": "999",
+									"weights": [],
+									"useCvv": true,
+									"useExpirationDate": true,
+									"useCardHolderName": true,
+									"useBillingAddress": true
+								},
+								"stringId": "402",
+								"template": "customPrivate_402PaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": true,
+								"description": "Cartão Pernambucanas Elo",
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-15T13:13:23.4074493Z",
+								"availablePayments": null
+							},
+							{
+								"id": 401,
+								"name": "Cartão Pernambucanas",
+								"groupName": "customPrivate_401PaymentGroup",
+								"validator": {
+									"regex": "6(0(8(6(1(9)))))",
+									"mask": "9999 9999 9999 9999",
+									"cardCodeRegex": "*",
+									"cardCodeMask": "null",
+									"weights": [],
+									"useCvv": false,
+									"useExpirationDate": false,
+									"useCardHolderName": true,
+									"useBillingAddress": true
+								},
+								"stringId": "401",
+								"template": "customPrivate_401PaymentGroup-template",
+								"requiresDocument": false,
+								"displayDocument": false,
+								"isCustom": true,
+								"description": "Cartão Pernambucanas",
+								"requiresAuthentication": false,
+								"dueDate": "2023-04-15T13:13:23.4074493Z",
+								"availablePayments": null
+							}
+						],
+						"payments": [
+							{
+								"paymentSystem": "17",
+								"bin": null,
+								"accountId": null,
+								"tokenId": null,
+								"installments": 1,
+								"referenceValue": 76283,
+								"value": 76283,
+								"merchantSellerPayments": [
+									{
+										"id": "PERNAMBUCANASQA",
+										"installments": 1,
+										"referenceValue": 76283,
+										"value": 76283,
+										"interestRate": 0,
+										"installmentValue": 76283
+									}
+								]
+							}
+						],
+						"giftCards": [],
+						"giftCardMessages": [],
+						"availableAccounts": [],
+						"availableTokens": [],
+						"availableAssociations": {}
+					},
+					"marketingData": null,
+					"sellers": [
+						{
+							"id": "1",
+							"name": "Pernambucanas",
+							"logo": ""
+						}
+					],
+					"clientPreferencesData": {
+						"locale": "pt-BR",
+						"optinNewsLetter": false
+					},
+					"commercialConditionData": null,
+					"storePreferencesData": {
+						"countryCode": "BRA",
+						"saveUserData": true,
+						"timeZone": "E. South America Standard Time",
+						"currencyCode": "BRL",
+						"currencyLocale": 1046,
+						"currencySymbol": "R$",
+						"currencyFormatInfo": {
+							"currencyDecimalDigits": 2,
+							"currencyDecimalSeparator": ",",
+							"currencyGroupSeparator": ".",
+							"currencyGroupSize": 3,
+							"startsWithCurrencySymbol": true
+						}
+					},
+					"giftRegistryData": null,
+					"openTextField": null,
+					"invoiceData": null,
+					"customData": null,
+					"hooksData": null,
+					"ratesAndBenefitsData": {
+						"rateAndBenefitsIdentifiers": [],
+						"teaser": []
+					},
+					"subscriptionData": null,
+					"merchantContextData": null,
+					"itemsOrdination": null,
+					"logisticsInfo": null
+							}
+				
 				// this.totalItems = this.cart && this.cart.items ? this.cart.items.length : 0
 				this.totalItems = this.cart && this.cart.items && this.cart.items.length > 0
 				? this.cart.items.map((prod) => prod.quantity).reduce((total, quantity) => total + quantity) 
 				: 0
-				console.log('this.totalItems', this.totalItems)
 				return this.cart
 			} catch (error) {
 				// this.cart = null
