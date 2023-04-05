@@ -30,7 +30,7 @@
 				class="max-h-35 w-fit md:max-h-60"
 				src="~/assets/images/pernambucanas-logo.png"
 			/>
-			<div class="float-right mt-8">
+			<div v-show="home()" class="float-right mt-8">
 				<button
 					type="button"
 					class="pnb-bg-yellow-2 position-relative wh-45 mr-8 rounded-full p-6 md:p-12"
@@ -95,7 +95,10 @@
 		navigator.clipboard.writeText(window.location.href)
 		toast.success('Link copiado com sucesso.')
 	}
-
+	function home(){
+		console.log('this.$route.path')
+		return ( this.$route.path == "/" ) ? true : false
+	}
 	const updateHeaderHeight = () => {
 		skewHeight.value = skew.value.offsetHeight
 		logoHeight.value = logo.value.offsetHeight
