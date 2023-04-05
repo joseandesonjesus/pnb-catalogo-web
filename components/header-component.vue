@@ -96,7 +96,7 @@
 		toast.success('Link copiado com sucesso.')
 	}
 	function home(){
-		console.log('this.$route.path')
+		console.log('this.$route.path', this.$route.path)
 		return ( this.$route.path == "/" ) ? true : false
 	}
 	const updateHeaderHeight = () => {
@@ -108,6 +108,8 @@
 	}
 
 	onMounted(() => {
+		console.log('this.$route.path', this.$route.path)
+
 		updateHeaderHeight()
 		window.addEventListener('resize', updateHeaderHeight)
 	})
