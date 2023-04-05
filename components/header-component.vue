@@ -28,6 +28,7 @@
 			<img
 				alt="Pernambucanas"
 				class="max-h-35 w-fit md:max-h-60"
+				:class="home() ? 'max-h-35 md:max-h-60' : 'max-h-25 md:max-h-30'"
 				src="~/assets/images/pernambucanas-logo.png"
 			/>
 			<div v-show="home()" class="float-right mt-8">
@@ -69,6 +70,7 @@
 	const toast = useToast()
 	const cartStore = useCart()
 	const vtexStore = useVtexStore()
+	const route = useRoute()
 
 	const {setHeaderHeight} = useHeaderHeight()
 
@@ -96,8 +98,7 @@
 		toast.success('Link copiado com sucesso.')
 	}
 	function home(){
-		console.log('this.$route.path', this.$route.path)
-		return ( this.$route.path == "/" ) ? true : false
+		return ( route.fullPath == "/cart" ) ? false : true
 	}
 	const updateHeaderHeight = () => {
 		skewHeight.value = skew.value.offsetHeight
@@ -108,8 +109,6 @@
 	}
 
 	onMounted(() => {
-		console.log('this.$route.path', this.$route.path)
-
 		updateHeaderHeight()
 		window.addEventListener('resize', updateHeaderHeight)
 	})
