@@ -106,9 +106,3648 @@ export const useVtexStore = defineStore('vtex', {
 					url: 'https://pernambucanas.zappag.com.br/revendedor/catalog/visualizar?id=produtosfinanceiros&r=2502&l=11&c=',
 				},
 			],
-			listProductCategories: [],
-			listProductBestSellers: [],
-			listProduct: [],
+			listProductCategories:  {
+				"data": [
+					{
+						"productId": "1076",
+						"productName": "X-Games Relógio 5 Atm Preto Plástico",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "x-games-relogio-5-atm-preto-plastico921623000000",
+						"productReference": "921623",
+						"productReferenceCode": "921623",
+						"categoryId": "89",
+						"productTitle": "X-Games Relógio 5 Atm Preto Plástico",
+						"metaTagDescription": "X-Games Relógio 5 Atm Preto Plástico",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>-Material Caixa: Plástico\n <br />-Sistema: Digital\n <br />-Cor Pulseira: Preto\n <br />-Cor Do Fundo: Preto\n <br />-Kit Relógio: Não Possui Kit\n <br />-Artigo: 921623",
+						"items": [
+							{
+								"itemId": "70011",
+								"name": "X-Games Relógio 5 Atm Preto Plástico",
+								"nameComplete": "X-Games Relógio 5 Atm Preto Plástico",
+								"complementName": "<p>X-Games Relógio 5 Atm Preto Plástico</p>",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360739/X-Games-Relogio-5-Atm-Preto-Plastico.jpg?v=637812508816900000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70011&qty=1&seller=1&sc=1&price=13999&cv=36FDF877668E48F8AE664D25CEF3918A_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 139.99,
+											"listPrice": 139.99,
+											"priceWithoutDiscount": 139.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "36FDF877668E48F8AE664D25CEF3918A_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "1022",
+						"productName": "Lince Relógio 5 Atm Bege Metal",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "lince-relogio-5-atm-bege-metal-921612000000",
+						"productReference": "921612",
+						"productReferenceCode": "921612",
+						"categoryId": "89",
+						"productTitle": "Lince Relógio 5 Atm Bege Metal",
+						"metaTagDescription": "Lince Relógio 5 Atm Bege Metal",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>-Material Caixa: Metal\n <br />-Sistema: Analógico\n <br />-Cor Pulseira: Dourado\n <br />-Cor Do Fundo: Bege\n <br />-Kit Relógio: Colar E Brinco\n <br />-Artigo: 921612",
+						"items": [
+							{
+								"itemId": "81509",
+								"name": "Lince Relógio 5 Atm Bege Metal",
+								"nameComplete": "Lince Relógio 5 Atm Bege Metal",
+								"complementName": "<p>Lince Relógio 5 Atm Bege Metal</p>",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/394936/Lince-Relogio-5-Atm-Bege-Metal.jpg?v=637812531096070000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=81509&qty=1&seller=1&sc=1&price=22999&cv=15C24D910B2A4D6A809FA1A32015DAD0_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 229.99,
+											"listPrice": 229.99,
+											"priceWithoutDiscount": 229.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "15C24D910B2A4D6A809FA1A32015DAD0_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "17077",
+						"productName": "Pulseira  Olho Grego",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "pulseira-olho-grego-937055000000",
+						"productReference": "937055",
+						"productReferenceCode": "937055",
+						"categoryId": "94",
+						"productTitle": "Pulseira De Olho Grego Ltpp - 053",
+						"metaTagDescription": "Pulseira De Olho Grego Ltpp - 053",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Bijuterias/Pulseiras/",
+							"/Acessórios/Bijuterias/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/90/94/",
+							"/4/90/",
+							"/4/"
+						],
+						"description": "<p>Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias. </p>\n\n<p>-Gênero: Feminino\n<br />-Cor: Dourado \n<br />-Origem Brasil \n<br />-Artigo: 937055",
+						"items": [
+							{
+								"itemId": "84833",
+								"name": "UNICO",
+								"nameComplete": "Pulseira  Olho Grego UNICO",
+								"complementName": "Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias.",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526567/Pulseira--Olho-Grego.jpg?v=637825734036600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526589/Pulseira--Olho-Grego.jpg?v=637825734048670000"
+									}
+								],
+								"tamanho": [
+									"SEM TAMANHO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=84833&qty=1&seller=1&sc=1&price=1999&cv=B6C948DC4C5E46FAA82A59234EF5FACD_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 19.99,
+											"listPrice": 19.99,
+											"priceWithoutDiscount": 19.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "B6C948DC4C5E46FAA82A59234EF5FACD_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "254",
+										"name": "SEM TAMANHO",
+										"position": 60
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "1059",
+						"productName": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "relogio-mondaine-masculino-prata-p2-analogico-99143g0mvne5-922116000000",
+						"productReference": "922116",
+						"productReferenceCode": "922116",
+						"categoryId": "89",
+						"productTitle": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"metaTagDescription": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>Mondaine Relógio 5 Atm Prata Metal</p>\n\n<p>-Material Caixa: Metal\n<br />-Sistema: Analógico\n<br />-Cor Pulseira: Prata\n<br />-Cor Do Fundo: Prata\n<br />-Kit Relógio: Não Possui Kit\n<br />-Artigo: 922116",
+						"items": [
+							{
+								"itemId": "70045",
+								"name": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+								"nameComplete": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+								"complementName": "0",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360837/Relogio-Mondaine-Masculino-Prata-P2-Analogico-99143G0Mvne5.jpg?v=637812508867900000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70045&qty=1&seller=1&sc=1&price=19999&cv=D0A1BDE5E5344983815C820A979D6932_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 199.99,
+											"listPrice": 199.99,
+											"priceWithoutDiscount": 199.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "D0A1BDE5E5344983815C820A979D6932_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36504",
+						"productName": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "conjunto-menina-com-babados-manga-longa-estampa-minnie-branco951961000000",
+						"productReference": "951961",
+						"productReferenceCode": "951961",
+						"categoryId": "93",
+						"productTitle": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"metaTagDescription": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Bijuterias/Conjuntos/",
+							"/Acessórios/Bijuterias/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/90/93/",
+							"/4/90/",
+							"/4/"
+						],
+						"description": "<p><p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p></p>\n\n<p>-Gênero: Menina\n<br />-Ocasião: Dia A Dia\n<br />-Composição De:: Composição Blusa:\n<br />-1 Algodão \n<br />-Composição Calça: Algodão 0,04 Elastano \n<br />-Estampado/Liso: Estampa\n<br />-Personagens: Minnie\n<br />-Tipo De Manga: Manga Longa\n<br />-Origem Brasil\n<br />-Tipo De Gola: Gola Redonda\n<br />-Artigo: 951961",
+						"items": [
+							{
+								"itemId": "109100",
+								"name": "4",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 4",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781816/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376367900000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781835/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376376100000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781858/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376384330000"
+									}
+								],
+								"tamanho": [
+									"4"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109100&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109103",
+								"name": "1",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 1",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781777/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376341800000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781791/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376353830000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781812/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376366670000"
+									}
+								],
+								"tamanho": [
+									"1"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109103&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109108",
+								"name": "3",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 3",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781780/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376346330000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781793/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376354630000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781821/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376369630000"
+									}
+								],
+								"tamanho": [
+									"3"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109108&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109115",
+								"name": "2",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 2",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781804/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376362600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781822/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376371200000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781845/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376378870000"
+									}
+								],
+								"tamanho": [
+									"2"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109115&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "249",
+										"name": "4",
+										"position": 55
+									},
+									{
+										"id": "265",
+										"name": "2",
+										"position": 71
+									},
+									{
+										"id": "266",
+										"name": "3",
+										"position": 72
+									},
+									{
+										"id": "279",
+										"name": "1",
+										"position": 85
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36476",
+						"productName": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-tartaruga-verde-951637000000",
+						"productReference": "951637",
+						"productReferenceCode": "951637",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Prateado <br />-Origem Brasil <br />-Artigo: 951637</p>",
+						"items": [
+							{
+								"itemId": "109062",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Tartaruga Verde UNICO",
+								"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781748/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376317070000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781760/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376326600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781768/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376336930000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109062&qty=1&seller=1&sc=1&price=5999&cv=88AD4E4780C344BB9CA9FEAC38B946FE_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "88AD4E4780C344BB9CA9FEAC38B946FE_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36475",
+						"productName": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-dourado-marrom-951635000000",
+						"productReference": "951635",
+						"productReferenceCode": "951635",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Tartaruga <br />-Origem Brasil <br />-Artigo: 951635</p>",
+						"items": [
+							{
+								"itemId": "109046",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Marrom UNICO",
+								"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781650/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376275400000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781684/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376285400000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781711/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376296500000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109046&qty=1&seller=1&sc=1&price=5999&cv=D7C122AB38204453AA1B3BE94DF1CE50_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "D7C122AB38204453AA1B3BE94DF1CE50_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36474",
+						"productName": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-dourado--preto--951634000000",
+						"productReference": "951634",
+						"productReferenceCode": "951634",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção. </p>\n\n<p>-Gênero: Unissex\n<br />-Cor: Preto \n<br />-Origem Brasil \n<br />-Artigo: 951634",
+						"items": [
+							{
+								"itemId": "109068",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Preto UNICO",
+								"complementName": "Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781739/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376312200000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781757/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376324100000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781765/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376335230000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109068&qty=1&seller=1&sc=1&price=5999&cv=5D72E9B779B44F8E918545BE117E9036_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "5D72E9B779B44F8E918545BE117E9036_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36459",
+						"productName": "Cinto Liso Marrom",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "cinto-liso-marrom950737000000",
+						"productReference": "950737",
+						"productReferenceCode": "950737",
+						"categoryId": "84",
+						"productTitle": "Cinto Liso Marrom",
+						"metaTagDescription": "Cinto Liso Marrom",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Cintos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/84/",
+							"/4/"
+						],
+						"description": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>\r\n<p>-Gênero: Feminino <br />-Cor: Marrom <br />-Origem Brasil <br />-Artigo: 950737</p>",
+						"items": [
+							{
+								"itemId": "109017",
+								"name": "P",
+								"nameComplete": "Cinto Liso Marrom P",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781586/Cinto-Liso-Marrom.jpg?v=637829376255070000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781625/Cinto-Liso-Marrom.jpg?v=637829376266470000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781666/Cinto-Liso-Marrom.jpg?v=637829376279930000"
+									}
+								],
+								"tamanho": [
+									"P"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109017&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109035",
+								"name": "GG",
+								"nameComplete": "Cinto Liso Marrom GG",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781673/Cinto-Liso-Marrom.jpg?v=637829376281330000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781696/Cinto-Liso-Marrom.jpg?v=637829376289770000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781721/Cinto-Liso-Marrom.jpg?v=637829376299470000"
+									}
+								],
+								"tamanho": [
+									"GG"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109035&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109042",
+								"name": "M",
+								"nameComplete": "Cinto Liso Marrom M",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781659/Cinto-Liso-Marrom.jpg?v=637829376278030000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781692/Cinto-Liso-Marrom.jpg?v=637829376289470000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781722/Cinto-Liso-Marrom.jpg?v=637829376299800000"
+									}
+								],
+								"tamanho": [
+									"M"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109042&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109044",
+								"name": "G",
+								"nameComplete": "Cinto Liso Marrom G",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781702/Cinto-Liso-Marrom.jpg?v=637829376292270000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781726/Cinto-Liso-Marrom.jpg?v=637829376300770000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781735/Cinto-Liso-Marrom.jpg?v=637829376309100000"
+									}
+								],
+								"tamanho": [
+									"G"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109044&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "195",
+										"name": "P",
+										"position": 2
+									},
+									{
+										"id": "197",
+										"name": "M",
+										"position": 3
+									},
+									{
+										"id": "196",
+										"name": "G",
+										"position": 4
+									},
+									{
+										"id": "201",
+										"name": "GG",
+										"position": 5
+									}
+								]
+							}
+						]
+					}
+				],
+				"facets": {
+					"name": "Tamanho",
+					"value": [
+						"1",
+						"2",
+						"3",
+						"4",
+						"UNICO",
+						"SEM TAMANHO",
+						"P",
+						"M",
+						"G",
+						"GG"
+					]
+				}
+			},
+			listProductBestSellers:  {
+				"data": [
+					{
+						"productId": "1076",
+						"productName": "X-Games Relógio 5 Atm Preto Plástico",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "x-games-relogio-5-atm-preto-plastico921623000000",
+						"productReference": "921623",
+						"productReferenceCode": "921623",
+						"categoryId": "89",
+						"productTitle": "X-Games Relógio 5 Atm Preto Plástico",
+						"metaTagDescription": "X-Games Relógio 5 Atm Preto Plástico",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>-Material Caixa: Plástico\n <br />-Sistema: Digital\n <br />-Cor Pulseira: Preto\n <br />-Cor Do Fundo: Preto\n <br />-Kit Relógio: Não Possui Kit\n <br />-Artigo: 921623",
+						"items": [
+							{
+								"itemId": "70011",
+								"name": "X-Games Relógio 5 Atm Preto Plástico",
+								"nameComplete": "X-Games Relógio 5 Atm Preto Plástico",
+								"complementName": "<p>X-Games Relógio 5 Atm Preto Plástico</p>",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360739/X-Games-Relogio-5-Atm-Preto-Plastico.jpg?v=637812508816900000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70011&qty=1&seller=1&sc=1&price=13999&cv=36FDF877668E48F8AE664D25CEF3918A_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 139.99,
+											"listPrice": 139.99,
+											"priceWithoutDiscount": 139.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "36FDF877668E48F8AE664D25CEF3918A_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "1022",
+						"productName": "Lince Relógio 5 Atm Bege Metal",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "lince-relogio-5-atm-bege-metal-921612000000",
+						"productReference": "921612",
+						"productReferenceCode": "921612",
+						"categoryId": "89",
+						"productTitle": "Lince Relógio 5 Atm Bege Metal",
+						"metaTagDescription": "Lince Relógio 5 Atm Bege Metal",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>-Material Caixa: Metal\n <br />-Sistema: Analógico\n <br />-Cor Pulseira: Dourado\n <br />-Cor Do Fundo: Bege\n <br />-Kit Relógio: Colar E Brinco\n <br />-Artigo: 921612",
+						"items": [
+							{
+								"itemId": "81509",
+								"name": "Lince Relógio 5 Atm Bege Metal",
+								"nameComplete": "Lince Relógio 5 Atm Bege Metal",
+								"complementName": "<p>Lince Relógio 5 Atm Bege Metal</p>",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/394936/Lince-Relogio-5-Atm-Bege-Metal.jpg?v=637812531096070000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=81509&qty=1&seller=1&sc=1&price=22999&cv=15C24D910B2A4D6A809FA1A32015DAD0_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 229.99,
+											"listPrice": 229.99,
+											"priceWithoutDiscount": 229.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "15C24D910B2A4D6A809FA1A32015DAD0_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "17077",
+						"productName": "Pulseira  Olho Grego",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "pulseira-olho-grego-937055000000",
+						"productReference": "937055",
+						"productReferenceCode": "937055",
+						"categoryId": "94",
+						"productTitle": "Pulseira De Olho Grego Ltpp - 053",
+						"metaTagDescription": "Pulseira De Olho Grego Ltpp - 053",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Bijuterias/Pulseiras/",
+							"/Acessórios/Bijuterias/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/90/94/",
+							"/4/90/",
+							"/4/"
+						],
+						"description": "<p>Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias. </p>\n\n<p>-Gênero: Feminino\n<br />-Cor: Dourado \n<br />-Origem Brasil \n<br />-Artigo: 937055",
+						"items": [
+							{
+								"itemId": "84833",
+								"name": "UNICO",
+								"nameComplete": "Pulseira  Olho Grego UNICO",
+								"complementName": "Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias.",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526567/Pulseira--Olho-Grego.jpg?v=637825734036600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526589/Pulseira--Olho-Grego.jpg?v=637825734048670000"
+									}
+								],
+								"tamanho": [
+									"SEM TAMANHO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=84833&qty=1&seller=1&sc=1&price=1999&cv=B6C948DC4C5E46FAA82A59234EF5FACD_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 19.99,
+											"listPrice": 19.99,
+											"priceWithoutDiscount": 19.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "B6C948DC4C5E46FAA82A59234EF5FACD_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "254",
+										"name": "SEM TAMANHO",
+										"position": 60
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "1059",
+						"productName": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "relogio-mondaine-masculino-prata-p2-analogico-99143g0mvne5-922116000000",
+						"productReference": "922116",
+						"productReferenceCode": "922116",
+						"categoryId": "89",
+						"productTitle": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"metaTagDescription": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>Mondaine Relógio 5 Atm Prata Metal</p>\n\n<p>-Material Caixa: Metal\n<br />-Sistema: Analógico\n<br />-Cor Pulseira: Prata\n<br />-Cor Do Fundo: Prata\n<br />-Kit Relógio: Não Possui Kit\n<br />-Artigo: 922116",
+						"items": [
+							{
+								"itemId": "70045",
+								"name": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+								"nameComplete": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+								"complementName": "0",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360837/Relogio-Mondaine-Masculino-Prata-P2-Analogico-99143G0Mvne5.jpg?v=637812508867900000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70045&qty=1&seller=1&sc=1&price=19999&cv=D0A1BDE5E5344983815C820A979D6932_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 199.99,
+											"listPrice": 199.99,
+											"priceWithoutDiscount": 199.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "D0A1BDE5E5344983815C820A979D6932_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36504",
+						"productName": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "conjunto-menina-com-babados-manga-longa-estampa-minnie-branco951961000000",
+						"productReference": "951961",
+						"productReferenceCode": "951961",
+						"categoryId": "93",
+						"productTitle": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"metaTagDescription": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Bijuterias/Conjuntos/",
+							"/Acessórios/Bijuterias/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/90/93/",
+							"/4/90/",
+							"/4/"
+						],
+						"description": "<p><p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p></p>\n\n<p>-Gênero: Menina\n<br />-Ocasião: Dia A Dia\n<br />-Composição De:: Composição Blusa:\n<br />-1 Algodão \n<br />-Composição Calça: Algodão 0,04 Elastano \n<br />-Estampado/Liso: Estampa\n<br />-Personagens: Minnie\n<br />-Tipo De Manga: Manga Longa\n<br />-Origem Brasil\n<br />-Tipo De Gola: Gola Redonda\n<br />-Artigo: 951961",
+						"items": [
+							{
+								"itemId": "109100",
+								"name": "4",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 4",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781816/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376367900000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781835/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376376100000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781858/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376384330000"
+									}
+								],
+								"tamanho": [
+									"4"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109100&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109103",
+								"name": "1",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 1",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781777/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376341800000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781791/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376353830000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781812/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376366670000"
+									}
+								],
+								"tamanho": [
+									"1"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109103&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109108",
+								"name": "3",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 3",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781780/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376346330000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781793/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376354630000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781821/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376369630000"
+									}
+								],
+								"tamanho": [
+									"3"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109108&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109115",
+								"name": "2",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 2",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781804/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376362600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781822/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376371200000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781845/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376378870000"
+									}
+								],
+								"tamanho": [
+									"2"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109115&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "249",
+										"name": "4",
+										"position": 55
+									},
+									{
+										"id": "265",
+										"name": "2",
+										"position": 71
+									},
+									{
+										"id": "266",
+										"name": "3",
+										"position": 72
+									},
+									{
+										"id": "279",
+										"name": "1",
+										"position": 85
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36476",
+						"productName": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-tartaruga-verde-951637000000",
+						"productReference": "951637",
+						"productReferenceCode": "951637",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Prateado <br />-Origem Brasil <br />-Artigo: 951637</p>",
+						"items": [
+							{
+								"itemId": "109062",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Tartaruga Verde UNICO",
+								"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781748/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376317070000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781760/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376326600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781768/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376336930000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109062&qty=1&seller=1&sc=1&price=5999&cv=88AD4E4780C344BB9CA9FEAC38B946FE_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "88AD4E4780C344BB9CA9FEAC38B946FE_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36475",
+						"productName": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-dourado-marrom-951635000000",
+						"productReference": "951635",
+						"productReferenceCode": "951635",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Tartaruga <br />-Origem Brasil <br />-Artigo: 951635</p>",
+						"items": [
+							{
+								"itemId": "109046",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Marrom UNICO",
+								"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781650/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376275400000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781684/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376285400000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781711/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376296500000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109046&qty=1&seller=1&sc=1&price=5999&cv=D7C122AB38204453AA1B3BE94DF1CE50_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "D7C122AB38204453AA1B3BE94DF1CE50_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36474",
+						"productName": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-dourado--preto--951634000000",
+						"productReference": "951634",
+						"productReferenceCode": "951634",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção. </p>\n\n<p>-Gênero: Unissex\n<br />-Cor: Preto \n<br />-Origem Brasil \n<br />-Artigo: 951634",
+						"items": [
+							{
+								"itemId": "109068",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Preto UNICO",
+								"complementName": "Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781739/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376312200000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781757/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376324100000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781765/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376335230000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109068&qty=1&seller=1&sc=1&price=5999&cv=5D72E9B779B44F8E918545BE117E9036_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "5D72E9B779B44F8E918545BE117E9036_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36459",
+						"productName": "Cinto Liso Marrom",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "cinto-liso-marrom950737000000",
+						"productReference": "950737",
+						"productReferenceCode": "950737",
+						"categoryId": "84",
+						"productTitle": "Cinto Liso Marrom",
+						"metaTagDescription": "Cinto Liso Marrom",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Cintos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/84/",
+							"/4/"
+						],
+						"description": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>\r\n<p>-Gênero: Feminino <br />-Cor: Marrom <br />-Origem Brasil <br />-Artigo: 950737</p>",
+						"items": [
+							{
+								"itemId": "109017",
+								"name": "P",
+								"nameComplete": "Cinto Liso Marrom P",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781586/Cinto-Liso-Marrom.jpg?v=637829376255070000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781625/Cinto-Liso-Marrom.jpg?v=637829376266470000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781666/Cinto-Liso-Marrom.jpg?v=637829376279930000"
+									}
+								],
+								"tamanho": [
+									"P"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109017&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109035",
+								"name": "GG",
+								"nameComplete": "Cinto Liso Marrom GG",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781673/Cinto-Liso-Marrom.jpg?v=637829376281330000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781696/Cinto-Liso-Marrom.jpg?v=637829376289770000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781721/Cinto-Liso-Marrom.jpg?v=637829376299470000"
+									}
+								],
+								"tamanho": [
+									"GG"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109035&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109042",
+								"name": "M",
+								"nameComplete": "Cinto Liso Marrom M",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781659/Cinto-Liso-Marrom.jpg?v=637829376278030000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781692/Cinto-Liso-Marrom.jpg?v=637829376289470000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781722/Cinto-Liso-Marrom.jpg?v=637829376299800000"
+									}
+								],
+								"tamanho": [
+									"M"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109042&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109044",
+								"name": "G",
+								"nameComplete": "Cinto Liso Marrom G",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781702/Cinto-Liso-Marrom.jpg?v=637829376292270000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781726/Cinto-Liso-Marrom.jpg?v=637829376300770000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781735/Cinto-Liso-Marrom.jpg?v=637829376309100000"
+									}
+								],
+								"tamanho": [
+									"G"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109044&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "195",
+										"name": "P",
+										"position": 2
+									},
+									{
+										"id": "197",
+										"name": "M",
+										"position": 3
+									},
+									{
+										"id": "196",
+										"name": "G",
+										"position": 4
+									},
+									{
+										"id": "201",
+										"name": "GG",
+										"position": 5
+									}
+								]
+							}
+						]
+					}
+				],
+				"facets": {
+					"name": "Tamanho",
+					"value": [
+						"1",
+						"2",
+						"3",
+						"4",
+						"UNICO",
+						"SEM TAMANHO",
+						"P",
+						"M",
+						"G",
+						"GG"
+					]
+				}
+			},
+			listProduct:  {
+				"data": [
+					{
+						"productId": "1076",
+						"productName": "X-Games Relógio 5 Atm Preto Plástico",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "x-games-relogio-5-atm-preto-plastico921623000000",
+						"productReference": "921623",
+						"productReferenceCode": "921623",
+						"categoryId": "89",
+						"productTitle": "X-Games Relógio 5 Atm Preto Plástico",
+						"metaTagDescription": "X-Games Relógio 5 Atm Preto Plástico",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>-Material Caixa: Plástico\n <br />-Sistema: Digital\n <br />-Cor Pulseira: Preto\n <br />-Cor Do Fundo: Preto\n <br />-Kit Relógio: Não Possui Kit\n <br />-Artigo: 921623",
+						"items": [
+							{
+								"itemId": "70011",
+								"name": "X-Games Relógio 5 Atm Preto Plástico",
+								"nameComplete": "X-Games Relógio 5 Atm Preto Plástico",
+								"complementName": "<p>X-Games Relógio 5 Atm Preto Plástico</p>",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360739/X-Games-Relogio-5-Atm-Preto-Plastico.jpg?v=637812508816900000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70011&qty=1&seller=1&sc=1&price=13999&cv=36FDF877668E48F8AE664D25CEF3918A_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 139.99,
+											"listPrice": 139.99,
+											"priceWithoutDiscount": 139.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "36FDF877668E48F8AE664D25CEF3918A_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "1022",
+						"productName": "Lince Relógio 5 Atm Bege Metal",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "lince-relogio-5-atm-bege-metal-921612000000",
+						"productReference": "921612",
+						"productReferenceCode": "921612",
+						"categoryId": "89",
+						"productTitle": "Lince Relógio 5 Atm Bege Metal",
+						"metaTagDescription": "Lince Relógio 5 Atm Bege Metal",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>-Material Caixa: Metal\n <br />-Sistema: Analógico\n <br />-Cor Pulseira: Dourado\n <br />-Cor Do Fundo: Bege\n <br />-Kit Relógio: Colar E Brinco\n <br />-Artigo: 921612",
+						"items": [
+							{
+								"itemId": "81509",
+								"name": "Lince Relógio 5 Atm Bege Metal",
+								"nameComplete": "Lince Relógio 5 Atm Bege Metal",
+								"complementName": "<p>Lince Relógio 5 Atm Bege Metal</p>",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/394936/Lince-Relogio-5-Atm-Bege-Metal.jpg?v=637812531096070000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=81509&qty=1&seller=1&sc=1&price=22999&cv=15C24D910B2A4D6A809FA1A32015DAD0_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 229.99,
+											"listPrice": 229.99,
+											"priceWithoutDiscount": 229.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "15C24D910B2A4D6A809FA1A32015DAD0_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "17077",
+						"productName": "Pulseira  Olho Grego",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "pulseira-olho-grego-937055000000",
+						"productReference": "937055",
+						"productReferenceCode": "937055",
+						"categoryId": "94",
+						"productTitle": "Pulseira De Olho Grego Ltpp - 053",
+						"metaTagDescription": "Pulseira De Olho Grego Ltpp - 053",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Bijuterias/Pulseiras/",
+							"/Acessórios/Bijuterias/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/90/94/",
+							"/4/90/",
+							"/4/"
+						],
+						"description": "<p>Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias. </p>\n\n<p>-Gênero: Feminino\n<br />-Cor: Dourado \n<br />-Origem Brasil \n<br />-Artigo: 937055",
+						"items": [
+							{
+								"itemId": "84833",
+								"name": "UNICO",
+								"nameComplete": "Pulseira  Olho Grego UNICO",
+								"complementName": "Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias.",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526567/Pulseira--Olho-Grego.jpg?v=637825734036600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526589/Pulseira--Olho-Grego.jpg?v=637825734048670000"
+									}
+								],
+								"tamanho": [
+									"SEM TAMANHO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=84833&qty=1&seller=1&sc=1&price=1999&cv=B6C948DC4C5E46FAA82A59234EF5FACD_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 19.99,
+											"listPrice": 19.99,
+											"priceWithoutDiscount": 19.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "B6C948DC4C5E46FAA82A59234EF5FACD_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "254",
+										"name": "SEM TAMANHO",
+										"position": 60
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "1059",
+						"productName": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"brand": "Teste",
+						"brandId": 2000000,
+						"brandImageUrl": null,
+						"linkText": "relogio-mondaine-masculino-prata-p2-analogico-99143g0mvne5-922116000000",
+						"productReference": "922116",
+						"productReferenceCode": "922116",
+						"categoryId": "89",
+						"productTitle": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"metaTagDescription": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Relógios/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/89/",
+							"/4/"
+						],
+						"description": "<p>Mondaine Relógio 5 Atm Prata Metal</p>\n\n<p>-Material Caixa: Metal\n<br />-Sistema: Analógico\n<br />-Cor Pulseira: Prata\n<br />-Cor Do Fundo: Prata\n<br />-Kit Relógio: Não Possui Kit\n<br />-Artigo: 922116",
+						"items": [
+							{
+								"itemId": "70045",
+								"name": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+								"nameComplete": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
+								"complementName": "0",
+								"modalType": null,
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360837/Relogio-Mondaine-Masculino-Prata-P2-Analogico-99143G0Mvne5.jpg?v=637812508867900000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70045&qty=1&seller=1&sc=1&price=19999&cv=D0A1BDE5E5344983815C820A979D6932_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 199.99,
+											"listPrice": 199.99,
+											"priceWithoutDiscount": 199.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 100,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "D0A1BDE5E5344983815C820A979D6932_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36504",
+						"productName": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "conjunto-menina-com-babados-manga-longa-estampa-minnie-branco951961000000",
+						"productReference": "951961",
+						"productReferenceCode": "951961",
+						"categoryId": "93",
+						"productTitle": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"metaTagDescription": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Bijuterias/Conjuntos/",
+							"/Acessórios/Bijuterias/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/90/93/",
+							"/4/90/",
+							"/4/"
+						],
+						"description": "<p><p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p></p>\n\n<p>-Gênero: Menina\n<br />-Ocasião: Dia A Dia\n<br />-Composição De:: Composição Blusa:\n<br />-1 Algodão \n<br />-Composição Calça: Algodão 0,04 Elastano \n<br />-Estampado/Liso: Estampa\n<br />-Personagens: Minnie\n<br />-Tipo De Manga: Manga Longa\n<br />-Origem Brasil\n<br />-Tipo De Gola: Gola Redonda\n<br />-Artigo: 951961",
+						"items": [
+							{
+								"itemId": "109100",
+								"name": "4",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 4",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781816/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376367900000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781835/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376376100000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781858/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376384330000"
+									}
+								],
+								"tamanho": [
+									"4"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109100&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109103",
+								"name": "1",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 1",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781777/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376341800000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781791/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376353830000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781812/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376366670000"
+									}
+								],
+								"tamanho": [
+									"1"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109103&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109108",
+								"name": "3",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 3",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781780/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376346330000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781793/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376354630000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781821/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376369630000"
+									}
+								],
+								"tamanho": [
+									"3"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109108&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109115",
+								"name": "2",
+								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 2",
+								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781804/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376362600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781822/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376371200000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781845/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376378870000"
+									}
+								],
+								"tamanho": [
+									"2"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109115&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 49.99,
+											"listPrice": 49.99,
+											"priceWithoutDiscount": 49.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "249",
+										"name": "4",
+										"position": 55
+									},
+									{
+										"id": "265",
+										"name": "2",
+										"position": 71
+									},
+									{
+										"id": "266",
+										"name": "3",
+										"position": 72
+									},
+									{
+										"id": "279",
+										"name": "1",
+										"position": 85
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36476",
+						"productName": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-tartaruga-verde-951637000000",
+						"productReference": "951637",
+						"productReferenceCode": "951637",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Prateado <br />-Origem Brasil <br />-Artigo: 951637</p>",
+						"items": [
+							{
+								"itemId": "109062",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Tartaruga Verde UNICO",
+								"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781748/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376317070000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781760/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376326600000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781768/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376336930000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109062&qty=1&seller=1&sc=1&price=5999&cv=88AD4E4780C344BB9CA9FEAC38B946FE_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "88AD4E4780C344BB9CA9FEAC38B946FE_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36475",
+						"productName": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-dourado-marrom-951635000000",
+						"productReference": "951635",
+						"productReferenceCode": "951635",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Tartaruga <br />-Origem Brasil <br />-Artigo: 951635</p>",
+						"items": [
+							{
+								"itemId": "109046",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Marrom UNICO",
+								"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781650/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376275400000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781684/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376285400000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781711/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376296500000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109046&qty=1&seller=1&sc=1&price=5999&cv=D7C122AB38204453AA1B3BE94DF1CE50_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "D7C122AB38204453AA1B3BE94DF1CE50_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36474",
+						"productName": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "oculos-unissex-metal-hexagonal-dourado--preto--951634000000",
+						"productReference": "951634",
+						"productReferenceCode": "951634",
+						"categoryId": "95",
+						"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Preto",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Óculos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/95/",
+							"/4/"
+						],
+						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção. </p>\n\n<p>-Gênero: Unissex\n<br />-Cor: Preto \n<br />-Origem Brasil \n<br />-Artigo: 951634",
+						"items": [
+							{
+								"itemId": "109068",
+								"name": "UNICO",
+								"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Preto UNICO",
+								"complementName": "Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781739/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376312200000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781757/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376324100000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781765/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376335230000"
+									}
+								],
+								"tamanho": [
+									"UNICO"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109068&qty=1&seller=1&sc=1&price=5999&cv=5D72E9B779B44F8E918545BE117E9036_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 59.99,
+											"listPrice": 59.99,
+											"priceWithoutDiscount": 59.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "5D72E9B779B44F8E918545BE117E9036_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "209",
+										"name": "UNICO",
+										"position": 1
+									}
+								]
+							}
+						]
+					},
+					{
+						"productId": "36459",
+						"productName": "Cinto Liso Marrom",
+						"brand": "Sem Marca",
+						"brandId": 2000008,
+						"brandImageUrl": null,
+						"linkText": "cinto-liso-marrom950737000000",
+						"productReference": "950737",
+						"productReferenceCode": "950737",
+						"categoryId": "84",
+						"productTitle": "Cinto Liso Marrom",
+						"metaTagDescription": "Cinto Liso Marrom",
+						"releaseDate": "2019-01-01T00:00:00Z",
+						"categories": [
+							"/Acessórios/Cintos/",
+							"/Acessórios/"
+						],
+						"categoriesIds": [
+							"/4/84/",
+							"/4/"
+						],
+						"description": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>\r\n<p>-Gênero: Feminino <br />-Cor: Marrom <br />-Origem Brasil <br />-Artigo: 950737</p>",
+						"items": [
+							{
+								"itemId": "109017",
+								"name": "P",
+								"nameComplete": "Cinto Liso Marrom P",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781586/Cinto-Liso-Marrom.jpg?v=637829376255070000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781625/Cinto-Liso-Marrom.jpg?v=637829376266470000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781666/Cinto-Liso-Marrom.jpg?v=637829376279930000"
+									}
+								],
+								"tamanho": [
+									"P"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109017&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109035",
+								"name": "GG",
+								"nameComplete": "Cinto Liso Marrom GG",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781673/Cinto-Liso-Marrom.jpg?v=637829376281330000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781696/Cinto-Liso-Marrom.jpg?v=637829376289770000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781721/Cinto-Liso-Marrom.jpg?v=637829376299470000"
+									}
+								],
+								"tamanho": [
+									"GG"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109035&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109042",
+								"name": "M",
+								"nameComplete": "Cinto Liso Marrom M",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781659/Cinto-Liso-Marrom.jpg?v=637829376278030000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781692/Cinto-Liso-Marrom.jpg?v=637829376289470000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781722/Cinto-Liso-Marrom.jpg?v=637829376299800000"
+									}
+								],
+								"tamanho": [
+									"M"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109042&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:38:55Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							},
+							{
+								"itemId": "109044",
+								"name": "G",
+								"nameComplete": "Cinto Liso Marrom G",
+								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
+								"modalType": "",
+								"isKit": false,
+								"images": [
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781702/Cinto-Liso-Marrom.jpg?v=637829376292270000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781726/Cinto-Liso-Marrom.jpg?v=637829376300770000"
+									},
+									{
+										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781735/Cinto-Liso-Marrom.jpg?v=637829376309100000"
+									}
+								],
+								"tamanho": [
+									"G"
+								],
+								"variations": [
+									"Tamanho"
+								],
+								"sellers": [
+									{
+										"sellerId": "1",
+										"sellerName": "Pernambucanas",
+										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109044&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
+										"sellerDefault": true,
+										"commertialOffer": {
+											"discountHighLight": [],
+											"giftSkuIds": [],
+											"teasers": [],
+											"buyTogether": [],
+											"itemMetadataAttachment": [],
+											"price": 39.99,
+											"listPrice": 39.99,
+											"priceWithoutDiscount": 39.99,
+											"rewardValue": 0,
+											"priceValidUntil": "2024-04-05T13:42:12Z",
+											"availableQuantity": 50,
+											"isAvailable": true,
+											"tax": 0,
+											"getInfoErrorMessage": null,
+											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
+										}
+									}
+								],
+								"videos": [],
+								"estimatedDateArrival": null,
+								"duraçãoseguroegarantia": null
+							}
+						],
+						"skuSpecifications": [
+							{
+								"field": {
+									"id": 32,
+									"name": "Tamanho",
+									"isActive": true,
+									"position": 1,
+									"type": "Combo"
+								},
+								"values": [
+									{
+										"id": "195",
+										"name": "P",
+										"position": 2
+									},
+									{
+										"id": "197",
+										"name": "M",
+										"position": 3
+									},
+									{
+										"id": "196",
+										"name": "G",
+										"position": 4
+									},
+									{
+										"id": "201",
+										"name": "GG",
+										"position": 5
+									}
+								]
+							}
+						]
+					}
+				],
+				"facets": {
+					"name": "Tamanho",
+					"value": [
+						"1",
+						"2",
+						"3",
+						"4",
+						"UNICO",
+						"SEM TAMANHO",
+						"P",
+						"M",
+						"G",
+						"GG"
+					]
+				}
+			},
 
 			cupomDiscount: null,
 			emailPersonal: null,
@@ -21104,2419 +24743,10 @@ export const useVtexStore = defineStore('vtex', {
 			return this.optionCategory
 		},
 		getListProduct() {
-			return {
-				"data": [
-					{
-						"productId": "1076",
-						"productName": "X-Games Relógio 5 Atm Preto Plástico",
-						"brand": "Teste",
-						"brandId": 2000000,
-						"brandImageUrl": null,
-						"linkText": "x-games-relogio-5-atm-preto-plastico921623000000",
-						"productReference": "921623",
-						"productReferenceCode": "921623",
-						"categoryId": "89",
-						"productTitle": "X-Games Relógio 5 Atm Preto Plástico",
-						"metaTagDescription": "X-Games Relógio 5 Atm Preto Plástico",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Relógios/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/89/",
-							"/4/"
-						],
-						"description": "<p>-Material Caixa: Plástico\n <br />-Sistema: Digital\n <br />-Cor Pulseira: Preto\n <br />-Cor Do Fundo: Preto\n <br />-Kit Relógio: Não Possui Kit\n <br />-Artigo: 921623",
-						"items": [
-							{
-								"itemId": "70011",
-								"name": "X-Games Relógio 5 Atm Preto Plástico",
-								"nameComplete": "X-Games Relógio 5 Atm Preto Plástico",
-								"complementName": "<p>X-Games Relógio 5 Atm Preto Plástico</p>",
-								"modalType": null,
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360739/X-Games-Relogio-5-Atm-Preto-Plastico.jpg?v=637812508816900000"
-									}
-								],
-								"tamanho": [
-									"UNICO"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70011&qty=1&seller=1&sc=1&price=13999&cv=36FDF877668E48F8AE664D25CEF3918A_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 139.99,
-											"listPrice": 139.99,
-											"priceWithoutDiscount": 139.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 100,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "36FDF877668E48F8AE664D25CEF3918A_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "209",
-										"name": "UNICO",
-										"position": 1
-									}
-								]
-							}
-						]
-					},
-					{
-						"productId": "1022",
-						"productName": "Lince Relógio 5 Atm Bege Metal",
-						"brand": "Teste",
-						"brandId": 2000000,
-						"brandImageUrl": null,
-						"linkText": "lince-relogio-5-atm-bege-metal-921612000000",
-						"productReference": "921612",
-						"productReferenceCode": "921612",
-						"categoryId": "89",
-						"productTitle": "Lince Relógio 5 Atm Bege Metal",
-						"metaTagDescription": "Lince Relógio 5 Atm Bege Metal",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Relógios/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/89/",
-							"/4/"
-						],
-						"description": "<p>-Material Caixa: Metal\n <br />-Sistema: Analógico\n <br />-Cor Pulseira: Dourado\n <br />-Cor Do Fundo: Bege\n <br />-Kit Relógio: Colar E Brinco\n <br />-Artigo: 921612",
-						"items": [
-							{
-								"itemId": "81509",
-								"name": "Lince Relógio 5 Atm Bege Metal",
-								"nameComplete": "Lince Relógio 5 Atm Bege Metal",
-								"complementName": "<p>Lince Relógio 5 Atm Bege Metal</p>",
-								"modalType": null,
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/394936/Lince-Relogio-5-Atm-Bege-Metal.jpg?v=637812531096070000"
-									}
-								],
-								"tamanho": [
-									"UNICO"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=81509&qty=1&seller=1&sc=1&price=22999&cv=15C24D910B2A4D6A809FA1A32015DAD0_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 229.99,
-											"listPrice": 229.99,
-											"priceWithoutDiscount": 229.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:38:55Z",
-											"availableQuantity": 100,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "15C24D910B2A4D6A809FA1A32015DAD0_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "209",
-										"name": "UNICO",
-										"position": 1
-									}
-								]
-							}
-						]
-					},
-					{
-						"productId": "17077",
-						"productName": "Pulseira  Olho Grego",
-						"brand": "Sem Marca",
-						"brandId": 2000008,
-						"brandImageUrl": null,
-						"linkText": "pulseira-olho-grego-937055000000",
-						"productReference": "937055",
-						"productReferenceCode": "937055",
-						"categoryId": "94",
-						"productTitle": "Pulseira De Olho Grego Ltpp - 053",
-						"metaTagDescription": "Pulseira De Olho Grego Ltpp - 053",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Bijuterias/Pulseiras/",
-							"/Acessórios/Bijuterias/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/90/94/",
-							"/4/90/",
-							"/4/"
-						],
-						"description": "<p>Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias. </p>\n\n<p>-Gênero: Feminino\n<br />-Cor: Dourado \n<br />-Origem Brasil \n<br />-Artigo: 937055",
-						"items": [
-							{
-								"itemId": "84833",
-								"name": "UNICO",
-								"nameComplete": "Pulseira  Olho Grego UNICO",
-								"complementName": "Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias.",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526567/Pulseira--Olho-Grego.jpg?v=637825734036600000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526589/Pulseira--Olho-Grego.jpg?v=637825734048670000"
-									}
-								],
-								"tamanho": [
-									"SEM TAMANHO"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=84833&qty=1&seller=1&sc=1&price=1999&cv=B6C948DC4C5E46FAA82A59234EF5FACD_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 19.99,
-											"listPrice": 19.99,
-											"priceWithoutDiscount": 19.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 100,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "B6C948DC4C5E46FAA82A59234EF5FACD_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "254",
-										"name": "SEM TAMANHO",
-										"position": 60
-									}
-								]
-							}
-						]
-					},
-					{
-						"productId": "1059",
-						"productName": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-						"brand": "Teste",
-						"brandId": 2000000,
-						"brandImageUrl": null,
-						"linkText": "relogio-mondaine-masculino-prata-p2-analogico-99143g0mvne5-922116000000",
-						"productReference": "922116",
-						"productReferenceCode": "922116",
-						"categoryId": "89",
-						"productTitle": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-						"metaTagDescription": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Relógios/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/89/",
-							"/4/"
-						],
-						"description": "<p>Mondaine Relógio 5 Atm Prata Metal</p>\n\n<p>-Material Caixa: Metal\n<br />-Sistema: Analógico\n<br />-Cor Pulseira: Prata\n<br />-Cor Do Fundo: Prata\n<br />-Kit Relógio: Não Possui Kit\n<br />-Artigo: 922116",
-						"items": [
-							{
-								"itemId": "70045",
-								"name": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-								"nameComplete": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-								"complementName": "0",
-								"modalType": null,
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360837/Relogio-Mondaine-Masculino-Prata-P2-Analogico-99143G0Mvne5.jpg?v=637812508867900000"
-									}
-								],
-								"tamanho": [
-									"UNICO"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70045&qty=1&seller=1&sc=1&price=19999&cv=D0A1BDE5E5344983815C820A979D6932_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 199.99,
-											"listPrice": 199.99,
-											"priceWithoutDiscount": 199.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:38:55Z",
-											"availableQuantity": 100,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "D0A1BDE5E5344983815C820A979D6932_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "209",
-										"name": "UNICO",
-										"position": 1
-									}
-								]
-							}
-						]
-					},
-					{
-						"productId": "36504",
-						"productName": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
-						"brand": "Sem Marca",
-						"brandId": 2000008,
-						"brandImageUrl": null,
-						"linkText": "conjunto-menina-com-babados-manga-longa-estampa-minnie-branco951961000000",
-						"productReference": "951961",
-						"productReferenceCode": "951961",
-						"categoryId": "93",
-						"productTitle": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
-						"metaTagDescription": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Bijuterias/Conjuntos/",
-							"/Acessórios/Bijuterias/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/90/93/",
-							"/4/90/",
-							"/4/"
-						],
-						"description": "<p><p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p></p>\n\n<p>-Gênero: Menina\n<br />-Ocasião: Dia A Dia\n<br />-Composição De:: Composição Blusa:\n<br />-1 Algodão \n<br />-Composição Calça: Algodão 0,04 Elastano \n<br />-Estampado/Liso: Estampa\n<br />-Personagens: Minnie\n<br />-Tipo De Manga: Manga Longa\n<br />-Origem Brasil\n<br />-Tipo De Gola: Gola Redonda\n<br />-Artigo: 951961",
-						"items": [
-							{
-								"itemId": "109100",
-								"name": "4",
-								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 4",
-								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781816/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376367900000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781835/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376376100000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781858/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376384330000"
-									}
-								],
-								"tamanho": [
-									"4"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109100&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 49.99,
-											"listPrice": 49.99,
-											"priceWithoutDiscount": 49.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							},
-							{
-								"itemId": "109103",
-								"name": "1",
-								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 1",
-								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781777/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376341800000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781791/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376353830000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781812/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376366670000"
-									}
-								],
-								"tamanho": [
-									"1"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109103&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 49.99,
-											"listPrice": 49.99,
-											"priceWithoutDiscount": 49.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:38:55Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							},
-							{
-								"itemId": "109108",
-								"name": "3",
-								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 3",
-								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781780/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376346330000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781793/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376354630000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781821/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376369630000"
-									}
-								],
-								"tamanho": [
-									"3"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109108&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 49.99,
-											"listPrice": 49.99,
-											"priceWithoutDiscount": 49.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							},
-							{
-								"itemId": "109115",
-								"name": "2",
-								"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 2",
-								"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781804/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376362600000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781822/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376371200000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781845/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376378870000"
-									}
-								],
-								"tamanho": [
-									"2"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109115&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 49.99,
-											"listPrice": 49.99,
-											"priceWithoutDiscount": 49.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "249",
-										"name": "4",
-										"position": 55
-									},
-									{
-										"id": "265",
-										"name": "2",
-										"position": 71
-									},
-									{
-										"id": "266",
-										"name": "3",
-										"position": 72
-									},
-									{
-										"id": "279",
-										"name": "1",
-										"position": 85
-									}
-								]
-							}
-						]
-					},
-					{
-						"productId": "36476",
-						"productName": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
-						"brand": "Sem Marca",
-						"brandId": 2000008,
-						"brandImageUrl": null,
-						"linkText": "oculos-unissex-metal-hexagonal-tartaruga-verde-951637000000",
-						"productReference": "951637",
-						"productReferenceCode": "951637",
-						"categoryId": "95",
-						"productTitle": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
-						"metaTagDescription": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Óculos/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/95/",
-							"/4/"
-						],
-						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Prateado <br />-Origem Brasil <br />-Artigo: 951637</p>",
-						"items": [
-							{
-								"itemId": "109062",
-								"name": "UNICO",
-								"nameComplete": "Óculos Unissex Metal Hexagonal Tartaruga Verde UNICO",
-								"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781748/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376317070000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781760/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376326600000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781768/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376336930000"
-									}
-								],
-								"tamanho": [
-									"UNICO"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109062&qty=1&seller=1&sc=1&price=5999&cv=88AD4E4780C344BB9CA9FEAC38B946FE_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 59.99,
-											"listPrice": 59.99,
-											"priceWithoutDiscount": 59.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:38:55Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "88AD4E4780C344BB9CA9FEAC38B946FE_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "209",
-										"name": "UNICO",
-										"position": 1
-									}
-								]
-							}
-						]
-					},
-					{
-						"productId": "36475",
-						"productName": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
-						"brand": "Sem Marca",
-						"brandId": 2000008,
-						"brandImageUrl": null,
-						"linkText": "oculos-unissex-metal-hexagonal-dourado-marrom-951635000000",
-						"productReference": "951635",
-						"productReferenceCode": "951635",
-						"categoryId": "95",
-						"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
-						"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Óculos/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/95/",
-							"/4/"
-						],
-						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Tartaruga <br />-Origem Brasil <br />-Artigo: 951635</p>",
-						"items": [
-							{
-								"itemId": "109046",
-								"name": "UNICO",
-								"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Marrom UNICO",
-								"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781650/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376275400000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781684/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376285400000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781711/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376296500000"
-									}
-								],
-								"tamanho": [
-									"UNICO"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109046&qty=1&seller=1&sc=1&price=5999&cv=D7C122AB38204453AA1B3BE94DF1CE50_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 59.99,
-											"listPrice": 59.99,
-											"priceWithoutDiscount": 59.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "D7C122AB38204453AA1B3BE94DF1CE50_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "209",
-										"name": "UNICO",
-										"position": 1
-									}
-								]
-							}
-						]
-					},
-					{
-						"productId": "36474",
-						"productName": "Óculos Unissex Metal Hexagonal Dourado  Preto",
-						"brand": "Sem Marca",
-						"brandId": 2000008,
-						"brandImageUrl": null,
-						"linkText": "oculos-unissex-metal-hexagonal-dourado--preto--951634000000",
-						"productReference": "951634",
-						"productReferenceCode": "951634",
-						"categoryId": "95",
-						"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Preto",
-						"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Preto",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Óculos/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/95/",
-							"/4/"
-						],
-						"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção. </p>\n\n<p>-Gênero: Unissex\n<br />-Cor: Preto \n<br />-Origem Brasil \n<br />-Artigo: 951634",
-						"items": [
-							{
-								"itemId": "109068",
-								"name": "UNICO",
-								"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Preto UNICO",
-								"complementName": "Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781739/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376312200000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781757/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376324100000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781765/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376335230000"
-									}
-								],
-								"tamanho": [
-									"UNICO"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109068&qty=1&seller=1&sc=1&price=5999&cv=5D72E9B779B44F8E918545BE117E9036_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 59.99,
-											"listPrice": 59.99,
-											"priceWithoutDiscount": 59.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "5D72E9B779B44F8E918545BE117E9036_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "209",
-										"name": "UNICO",
-										"position": 1
-									}
-								]
-							}
-						]
-					},
-					{
-						"productId": "36459",
-						"productName": "Cinto Liso Marrom",
-						"brand": "Sem Marca",
-						"brandId": 2000008,
-						"brandImageUrl": null,
-						"linkText": "cinto-liso-marrom950737000000",
-						"productReference": "950737",
-						"productReferenceCode": "950737",
-						"categoryId": "84",
-						"productTitle": "Cinto Liso Marrom",
-						"metaTagDescription": "Cinto Liso Marrom",
-						"releaseDate": "2019-01-01T00:00:00Z",
-						"categories": [
-							"/Acessórios/Cintos/",
-							"/Acessórios/"
-						],
-						"categoriesIds": [
-							"/4/84/",
-							"/4/"
-						],
-						"description": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>\r\n<p>-Gênero: Feminino <br />-Cor: Marrom <br />-Origem Brasil <br />-Artigo: 950737</p>",
-						"items": [
-							{
-								"itemId": "109017",
-								"name": "P",
-								"nameComplete": "Cinto Liso Marrom P",
-								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781586/Cinto-Liso-Marrom.jpg?v=637829376255070000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781625/Cinto-Liso-Marrom.jpg?v=637829376266470000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781666/Cinto-Liso-Marrom.jpg?v=637829376279930000"
-									}
-								],
-								"tamanho": [
-									"P"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109017&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 39.99,
-											"listPrice": 39.99,
-											"priceWithoutDiscount": 39.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							},
-							{
-								"itemId": "109035",
-								"name": "GG",
-								"nameComplete": "Cinto Liso Marrom GG",
-								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781673/Cinto-Liso-Marrom.jpg?v=637829376281330000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781696/Cinto-Liso-Marrom.jpg?v=637829376289770000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781721/Cinto-Liso-Marrom.jpg?v=637829376299470000"
-									}
-								],
-								"tamanho": [
-									"GG"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109035&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 39.99,
-											"listPrice": 39.99,
-											"priceWithoutDiscount": 39.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							},
-							{
-								"itemId": "109042",
-								"name": "M",
-								"nameComplete": "Cinto Liso Marrom M",
-								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781659/Cinto-Liso-Marrom.jpg?v=637829376278030000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781692/Cinto-Liso-Marrom.jpg?v=637829376289470000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781722/Cinto-Liso-Marrom.jpg?v=637829376299800000"
-									}
-								],
-								"tamanho": [
-									"M"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109042&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 39.99,
-											"listPrice": 39.99,
-											"priceWithoutDiscount": 39.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:38:55Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							},
-							{
-								"itemId": "109044",
-								"name": "G",
-								"nameComplete": "Cinto Liso Marrom G",
-								"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
-								"modalType": "",
-								"isKit": false,
-								"images": [
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781702/Cinto-Liso-Marrom.jpg?v=637829376292270000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781726/Cinto-Liso-Marrom.jpg?v=637829376300770000"
-									},
-									{
-										"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781735/Cinto-Liso-Marrom.jpg?v=637829376309100000"
-									}
-								],
-								"tamanho": [
-									"G"
-								],
-								"variations": [
-									"Tamanho"
-								],
-								"sellers": [
-									{
-										"sellerId": "1",
-										"sellerName": "Pernambucanas",
-										"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109044&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
-										"sellerDefault": true,
-										"commertialOffer": {
-											"discountHighLight": [],
-											"giftSkuIds": [],
-											"teasers": [],
-											"buyTogether": [],
-											"itemMetadataAttachment": [],
-											"price": 39.99,
-											"listPrice": 39.99,
-											"priceWithoutDiscount": 39.99,
-											"rewardValue": 0,
-											"priceValidUntil": "2024-04-05T13:42:12Z",
-											"availableQuantity": 50,
-											"isAvailable": true,
-											"tax": 0,
-											"getInfoErrorMessage": null,
-											"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
-										}
-									}
-								],
-								"videos": [],
-								"estimatedDateArrival": null,
-								"duraçãoseguroegarantia": null
-							}
-						],
-						"skuSpecifications": [
-							{
-								"field": {
-									"id": 32,
-									"name": "Tamanho",
-									"isActive": true,
-									"position": 1,
-									"type": "Combo"
-								},
-								"values": [
-									{
-										"id": "195",
-										"name": "P",
-										"position": 2
-									},
-									{
-										"id": "197",
-										"name": "M",
-										"position": 3
-									},
-									{
-										"id": "196",
-										"name": "G",
-										"position": 4
-									},
-									{
-										"id": "201",
-										"name": "GG",
-										"position": 5
-									}
-								]
-							}
-						]
-					}
-				],
-				"facets": {
-					"name": "Tamanho",
-					"value": [
-						"1",
-						"2",
-						"3",
-						"4",
-						"UNICO",
-						"SEM TAMANHO",
-						"P",
-						"M",
-						"G",
-						"GG"
-					]
-				}
-			}
+			return this.listProduct
 		},
 		getListProductBestSellers() {
-			return [
-				{
-					"productId": "1076",
-					"productName": "X-Games Relógio 5 Atm Preto Plástico",
-					"brand": "Teste",
-					"brandId": 2000000,
-					"brandImageUrl": null,
-					"linkText": "x-games-relogio-5-atm-preto-plastico921623000000",
-					"productReference": "921623",
-					"productReferenceCode": "921623",
-					"categoryId": "89",
-					"productTitle": "X-Games Relógio 5 Atm Preto Plástico",
-					"metaTagDescription": "X-Games Relógio 5 Atm Preto Plástico",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Relógios/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/89/",
-						"/4/"
-					],
-					"description": "<p>-Material Caixa: Plástico\n <br />-Sistema: Digital\n <br />-Cor Pulseira: Preto\n <br />-Cor Do Fundo: Preto\n <br />-Kit Relógio: Não Possui Kit\n <br />-Artigo: 921623",
-					"items": [
-						{
-							"itemId": "70011",
-							"name": "X-Games Relógio 5 Atm Preto Plástico",
-							"nameComplete": "X-Games Relógio 5 Atm Preto Plástico",
-							"complementName": "<p>X-Games Relógio 5 Atm Preto Plástico</p>",
-							"modalType": null,
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360739/X-Games-Relogio-5-Atm-Preto-Plastico.jpg?v=637812508816900000"
-								}
-							],
-							"tamanho": [
-								"UNICO"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70011&qty=1&seller=1&sc=1&price=13999&cv=36FDF877668E48F8AE664D25CEF3918A_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 139.99,
-										"listPrice": 139.99,
-										"priceWithoutDiscount": 139.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 100,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "36FDF877668E48F8AE664D25CEF3918A_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "209",
-									"name": "UNICO",
-									"position": 1
-								}
-							]
-						}
-					]
-				},
-				{
-					"productId": "1022",
-					"productName": "Lince Relógio 5 Atm Bege Metal",
-					"brand": "Teste",
-					"brandId": 2000000,
-					"brandImageUrl": null,
-					"linkText": "lince-relogio-5-atm-bege-metal-921612000000",
-					"productReference": "921612",
-					"productReferenceCode": "921612",
-					"categoryId": "89",
-					"productTitle": "Lince Relógio 5 Atm Bege Metal",
-					"metaTagDescription": "Lince Relógio 5 Atm Bege Metal",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Relógios/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/89/",
-						"/4/"
-					],
-					"description": "<p>-Material Caixa: Metal\n <br />-Sistema: Analógico\n <br />-Cor Pulseira: Dourado\n <br />-Cor Do Fundo: Bege\n <br />-Kit Relógio: Colar E Brinco\n <br />-Artigo: 921612",
-					"items": [
-						{
-							"itemId": "81509",
-							"name": "Lince Relógio 5 Atm Bege Metal",
-							"nameComplete": "Lince Relógio 5 Atm Bege Metal",
-							"complementName": "<p>Lince Relógio 5 Atm Bege Metal</p>",
-							"modalType": null,
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/394936/Lince-Relogio-5-Atm-Bege-Metal.jpg?v=637812531096070000"
-								}
-							],
-							"tamanho": [
-								"UNICO"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=81509&qty=1&seller=1&sc=1&price=22999&cv=15C24D910B2A4D6A809FA1A32015DAD0_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 229.99,
-										"listPrice": 229.99,
-										"priceWithoutDiscount": 229.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:38:55Z",
-										"availableQuantity": 100,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "15C24D910B2A4D6A809FA1A32015DAD0_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "209",
-									"name": "UNICO",
-									"position": 1
-								}
-							]
-						}
-					]
-				},
-				{
-					"productId": "17077",
-					"productName": "Pulseira  Olho Grego",
-					"brand": "Sem Marca",
-					"brandId": 2000008,
-					"brandImageUrl": null,
-					"linkText": "pulseira-olho-grego-937055000000",
-					"productReference": "937055",
-					"productReferenceCode": "937055",
-					"categoryId": "94",
-					"productTitle": "Pulseira De Olho Grego Ltpp - 053",
-					"metaTagDescription": "Pulseira De Olho Grego Ltpp - 053",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Bijuterias/Pulseiras/",
-						"/Acessórios/Bijuterias/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/90/94/",
-						"/4/90/",
-						"/4/"
-					],
-					"description": "<p>Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias. </p>\n\n<p>-Gênero: Feminino\n<br />-Cor: Dourado \n<br />-Origem Brasil \n<br />-Artigo: 937055",
-					"items": [
-						{
-							"itemId": "84833",
-							"name": "UNICO",
-							"nameComplete": "Pulseira  Olho Grego UNICO",
-							"complementName": "Quem não ama aquele acessório que componhe o look e deixa o dia mais alegre? Perfeito para dar aquele toque extra no seu estilo por combinar com você todos os dias.",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526567/Pulseira--Olho-Grego.jpg?v=637825734036600000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/526589/Pulseira--Olho-Grego.jpg?v=637825734048670000"
-								}
-							],
-							"tamanho": [
-								"SEM TAMANHO"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=84833&qty=1&seller=1&sc=1&price=1999&cv=B6C948DC4C5E46FAA82A59234EF5FACD_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 19.99,
-										"listPrice": 19.99,
-										"priceWithoutDiscount": 19.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 100,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "B6C948DC4C5E46FAA82A59234EF5FACD_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "254",
-									"name": "SEM TAMANHO",
-									"position": 60
-								}
-							]
-						}
-					]
-				},
-				{
-					"productId": "1059",
-					"productName": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-					"brand": "Teste",
-					"brandId": 2000000,
-					"brandImageUrl": null,
-					"linkText": "relogio-mondaine-masculino-prata-p2-analogico-99143g0mvne5-922116000000",
-					"productReference": "922116",
-					"productReferenceCode": "922116",
-					"categoryId": "89",
-					"productTitle": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-					"metaTagDescription": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Relógios/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/89/",
-						"/4/"
-					],
-					"description": "<p>Mondaine Relógio 5 Atm Prata Metal</p>\n\n<p>-Material Caixa: Metal\n<br />-Sistema: Analógico\n<br />-Cor Pulseira: Prata\n<br />-Cor Do Fundo: Prata\n<br />-Kit Relógio: Não Possui Kit\n<br />-Artigo: 922116",
-					"items": [
-						{
-							"itemId": "70045",
-							"name": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-							"nameComplete": "Relogio Mondaine Masculino Prata P2 Analogico 99143G0Mvne5",
-							"complementName": "0",
-							"modalType": null,
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/360837/Relogio-Mondaine-Masculino-Prata-P2-Analogico-99143G0Mvne5.jpg?v=637812508867900000"
-								}
-							],
-							"tamanho": [
-								"UNICO"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=70045&qty=1&seller=1&sc=1&price=19999&cv=D0A1BDE5E5344983815C820A979D6932_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 199.99,
-										"listPrice": 199.99,
-										"priceWithoutDiscount": 199.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:38:55Z",
-										"availableQuantity": 100,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "D0A1BDE5E5344983815C820A979D6932_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "209",
-									"name": "UNICO",
-									"position": 1
-								}
-							]
-						}
-					]
-				},
-				{
-					"productId": "36504",
-					"productName": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
-					"brand": "Sem Marca",
-					"brandId": 2000008,
-					"brandImageUrl": null,
-					"linkText": "conjunto-menina-com-babados-manga-longa-estampa-minnie-branco951961000000",
-					"productReference": "951961",
-					"productReferenceCode": "951961",
-					"categoryId": "93",
-					"productTitle": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
-					"metaTagDescription": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Bijuterias/Conjuntos/",
-						"/Acessórios/Bijuterias/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/90/93/",
-						"/4/90/",
-						"/4/"
-					],
-					"description": "<p><p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p></p>\n\n<p>-Gênero: Menina\n<br />-Ocasião: Dia A Dia\n<br />-Composição De:: Composição Blusa:\n<br />-1 Algodão \n<br />-Composição Calça: Algodão 0,04 Elastano \n<br />-Estampado/Liso: Estampa\n<br />-Personagens: Minnie\n<br />-Tipo De Manga: Manga Longa\n<br />-Origem Brasil\n<br />-Tipo De Gola: Gola Redonda\n<br />-Artigo: 951961",
-					"items": [
-						{
-							"itemId": "109100",
-							"name": "4",
-							"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 4",
-							"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781816/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376367900000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781835/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376376100000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781858/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376384330000"
-								}
-							],
-							"tamanho": [
-								"4"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109100&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 49.99,
-										"listPrice": 49.99,
-										"priceWithoutDiscount": 49.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						},
-						{
-							"itemId": "109103",
-							"name": "1",
-							"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 1",
-							"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781777/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376341800000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781791/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376353830000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781812/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376366670000"
-								}
-							],
-							"tamanho": [
-								"1"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109103&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 49.99,
-										"listPrice": 49.99,
-										"priceWithoutDiscount": 49.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:38:55Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						},
-						{
-							"itemId": "109108",
-							"name": "3",
-							"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 3",
-							"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781780/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376346330000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781793/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376354630000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781821/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376369630000"
-								}
-							],
-							"tamanho": [
-								"3"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109108&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 49.99,
-										"listPrice": 49.99,
-										"priceWithoutDiscount": 49.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						},
-						{
-							"itemId": "109115",
-							"name": "2",
-							"nameComplete": "Conjunto Menina Com Babados Manga Longa Estampa Minnie Branco 2",
-							"complementName": "<p>Os conjuntos infantis são peças chaves para os pais que buscam praticidade na hora de vestir sua pequena, graças a combinação das peças que já estão prontas para serem usadas no dia a dia ou em ocasiões especiais.<p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781804/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376362600000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781822/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376371200000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781845/Conjunto-Menina-Com-Babados-Manga-Longa-Estampa-Minnie-Branco.jpg?v=637829376378870000"
-								}
-							],
-							"tamanho": [
-								"2"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109115&qty=1&seller=1&sc=1&price=4999&cv=AA9A54012DAE41238F0DC2BB098943B8_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 49.99,
-										"listPrice": 49.99,
-										"priceWithoutDiscount": 49.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "AA9A54012DAE41238F0DC2BB098943B8_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "249",
-									"name": "4",
-									"position": 55
-								},
-								{
-									"id": "265",
-									"name": "2",
-									"position": 71
-								},
-								{
-									"id": "266",
-									"name": "3",
-									"position": 72
-								},
-								{
-									"id": "279",
-									"name": "1",
-									"position": 85
-								}
-							]
-						}
-					]
-				},
-				{
-					"productId": "36476",
-					"productName": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
-					"brand": "Sem Marca",
-					"brandId": 2000008,
-					"brandImageUrl": null,
-					"linkText": "oculos-unissex-metal-hexagonal-tartaruga-verde-951637000000",
-					"productReference": "951637",
-					"productReferenceCode": "951637",
-					"categoryId": "95",
-					"productTitle": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
-					"metaTagDescription": "Óculos Unissex Metal Hexagonal Tartaruga Verde",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Óculos/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/95/",
-						"/4/"
-					],
-					"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Prateado <br />-Origem Brasil <br />-Artigo: 951637</p>",
-					"items": [
-						{
-							"itemId": "109062",
-							"name": "UNICO",
-							"nameComplete": "Óculos Unissex Metal Hexagonal Tartaruga Verde UNICO",
-							"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781748/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376317070000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781760/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376326600000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781768/Oculos-Unissex-Metal-Hexagonal-Tartaruga-Verde.jpg?v=637829376336930000"
-								}
-							],
-							"tamanho": [
-								"UNICO"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109062&qty=1&seller=1&sc=1&price=5999&cv=88AD4E4780C344BB9CA9FEAC38B946FE_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 59.99,
-										"listPrice": 59.99,
-										"priceWithoutDiscount": 59.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:38:55Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "88AD4E4780C344BB9CA9FEAC38B946FE_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "209",
-									"name": "UNICO",
-									"position": 1
-								}
-							]
-						}
-					]
-				},
-				{
-					"productId": "36475",
-					"productName": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
-					"brand": "Sem Marca",
-					"brandId": 2000008,
-					"brandImageUrl": null,
-					"linkText": "oculos-unissex-metal-hexagonal-dourado-marrom-951635000000",
-					"productReference": "951635",
-					"productReferenceCode": "951635",
-					"categoryId": "95",
-					"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
-					"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Marrom",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Óculos/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/95/",
-						"/4/"
-					],
-					"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>\r\n<p>-Gênero: Unissex <br />-Cor: Tartaruga <br />-Origem Brasil <br />-Artigo: 951635</p>",
-					"items": [
-						{
-							"itemId": "109046",
-							"name": "UNICO",
-							"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Marrom UNICO",
-							"complementName": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.</p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781650/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376275400000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781684/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376285400000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781711/Oculos-Unissex-Metal-Hexagonal-Dourado--Marrom.jpg?v=637829376296500000"
-								}
-							],
-							"tamanho": [
-								"UNICO"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109046&qty=1&seller=1&sc=1&price=5999&cv=D7C122AB38204453AA1B3BE94DF1CE50_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 59.99,
-										"listPrice": 59.99,
-										"priceWithoutDiscount": 59.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "D7C122AB38204453AA1B3BE94DF1CE50_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "209",
-									"name": "UNICO",
-									"position": 1
-								}
-							]
-						}
-					]
-				},
-				{
-					"productId": "36474",
-					"productName": "Óculos Unissex Metal Hexagonal Dourado  Preto",
-					"brand": "Sem Marca",
-					"brandId": 2000008,
-					"brandImageUrl": null,
-					"linkText": "oculos-unissex-metal-hexagonal-dourado--preto--951634000000",
-					"productReference": "951634",
-					"productReferenceCode": "951634",
-					"categoryId": "95",
-					"productTitle": "Óculos Unissex Metal Hexagonal Dourado  Preto",
-					"metaTagDescription": "Óculos Unissex Metal Hexagonal Dourado  Preto",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Óculos/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/95/",
-						"/4/"
-					],
-					"description": "<p>Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção. </p>\n\n<p>-Gênero: Unissex\n<br />-Cor: Preto \n<br />-Origem Brasil \n<br />-Artigo: 951634",
-					"items": [
-						{
-							"itemId": "109068",
-							"name": "UNICO",
-							"nameComplete": "Óculos Unissex Metal Hexagonal Dourado  Preto UNICO",
-							"complementName": "Perfeito para dar aquele toque extra no seu estilo. Uma peça que combina com você todos os dias. Não pode faltar em sua coleção.",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781739/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376312200000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781757/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376324100000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781765/Oculos-Unissex-Metal-Hexagonal-Dourado--Preto.jpg?v=637829376335230000"
-								}
-							],
-							"tamanho": [
-								"UNICO"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109068&qty=1&seller=1&sc=1&price=5999&cv=5D72E9B779B44F8E918545BE117E9036_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 59.99,
-										"listPrice": 59.99,
-										"priceWithoutDiscount": 59.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "5D72E9B779B44F8E918545BE117E9036_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "209",
-									"name": "UNICO",
-									"position": 1
-								}
-							]
-						}
-					]
-				},
-				{
-					"productId": "36459",
-					"productName": "Cinto Liso Marrom",
-					"brand": "Sem Marca",
-					"brandId": 2000008,
-					"brandImageUrl": null,
-					"linkText": "cinto-liso-marrom950737000000",
-					"productReference": "950737",
-					"productReferenceCode": "950737",
-					"categoryId": "84",
-					"productTitle": "Cinto Liso Marrom",
-					"metaTagDescription": "Cinto Liso Marrom",
-					"releaseDate": "2019-01-01T00:00:00Z",
-					"categories": [
-						"/Acessórios/Cintos/",
-						"/Acessórios/"
-					],
-					"categoriesIds": [
-						"/4/84/",
-						"/4/"
-					],
-					"description": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>\r\n<p>-Gênero: Feminino <br />-Cor: Marrom <br />-Origem Brasil <br />-Artigo: 950737</p>",
-					"items": [
-						{
-							"itemId": "109017",
-							"name": "P",
-							"nameComplete": "Cinto Liso Marrom P",
-							"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781586/Cinto-Liso-Marrom.jpg?v=637829376255070000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781625/Cinto-Liso-Marrom.jpg?v=637829376266470000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781666/Cinto-Liso-Marrom.jpg?v=637829376279930000"
-								}
-							],
-							"tamanho": [
-								"P"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109017&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 39.99,
-										"listPrice": 39.99,
-										"priceWithoutDiscount": 39.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						},
-						{
-							"itemId": "109035",
-							"name": "GG",
-							"nameComplete": "Cinto Liso Marrom GG",
-							"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781673/Cinto-Liso-Marrom.jpg?v=637829376281330000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781696/Cinto-Liso-Marrom.jpg?v=637829376289770000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781721/Cinto-Liso-Marrom.jpg?v=637829376299470000"
-								}
-							],
-							"tamanho": [
-								"GG"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109035&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 39.99,
-										"listPrice": 39.99,
-										"priceWithoutDiscount": 39.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						},
-						{
-							"itemId": "109042",
-							"name": "M",
-							"nameComplete": "Cinto Liso Marrom M",
-							"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781659/Cinto-Liso-Marrom.jpg?v=637829376278030000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781692/Cinto-Liso-Marrom.jpg?v=637829376289470000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781722/Cinto-Liso-Marrom.jpg?v=637829376299800000"
-								}
-							],
-							"tamanho": [
-								"M"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109042&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 39.99,
-										"listPrice": 39.99,
-										"priceWithoutDiscount": 39.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:38:55Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						},
-						{
-							"itemId": "109044",
-							"name": "G",
-							"nameComplete": "Cinto Liso Marrom G",
-							"complementName": "<p>Cintos são acessórios que além de ajustar as calças servem para dar destaque no seu look e podem ser usados em diversas ocasiões.</p>",
-							"modalType": "",
-							"isKit": false,
-							"images": [
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781702/Cinto-Liso-Marrom.jpg?v=637829376292270000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781726/Cinto-Liso-Marrom.jpg?v=637829376300770000"
-								},
-								{
-									"imageUrl": "https://pernambucanasqa.vteximg.com.br/arquivos/ids/781735/Cinto-Liso-Marrom.jpg?v=637829376309100000"
-								}
-							],
-							"tamanho": [
-								"G"
-							],
-							"variations": [
-								"Tamanho"
-							],
-							"sellers": [
-								{
-									"sellerId": "1",
-									"sellerName": "Pernambucanas",
-									"addToCartLink": "https://pernambucanasqa.vtexcommercestable.com.br/checkout/cart/add?sku=109044&qty=1&seller=1&sc=1&price=3999&cv=6BA0E74D054F436FA7DF8FA32FBFB4F6_&sc=1",
-									"sellerDefault": true,
-									"commertialOffer": {
-										"discountHighLight": [],
-										"giftSkuIds": [],
-										"teasers": [],
-										"buyTogether": [],
-										"itemMetadataAttachment": [],
-										"price": 39.99,
-										"listPrice": 39.99,
-										"priceWithoutDiscount": 39.99,
-										"rewardValue": 0,
-										"priceValidUntil": "2024-04-05T13:42:12Z",
-										"availableQuantity": 50,
-										"isAvailable": true,
-										"tax": 0,
-										"getInfoErrorMessage": null,
-										"cacheVersionUsedToCallCheckout": "6BA0E74D054F436FA7DF8FA32FBFB4F6_"
-									}
-								}
-							],
-							"videos": [],
-							"estimatedDateArrival": null,
-							"duraçãoseguroegarantia": null
-						}
-					],
-					"skuSpecifications": [
-						{
-							"field": {
-								"id": 32,
-								"name": "Tamanho",
-								"isActive": true,
-								"position": 1,
-								"type": "Combo"
-							},
-							"values": [
-								{
-									"id": "195",
-									"name": "P",
-									"position": 2
-								},
-								{
-									"id": "197",
-									"name": "M",
-									"position": 3
-								},
-								{
-									"id": "196",
-									"name": "G",
-									"position": 4
-								},
-								{
-									"id": "201",
-									"name": "GG",
-									"position": 5
-								}
-							]
-						}
-					]
-				}
-			]
+			return this.listProductBestSellers
 		},
 		getListProductCategories() {
 			return this.listProductCategories
